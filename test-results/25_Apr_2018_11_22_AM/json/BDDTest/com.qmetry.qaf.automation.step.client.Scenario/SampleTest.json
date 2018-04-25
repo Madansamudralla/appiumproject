@@ -1,0 +1,545 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "switchtoflight",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=com.cleartrip.android:id/switcher_image, using=id}"
+          ],
+          "result": "[id: 1]",
+          "subLogs": [],
+          "duration": 76
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=com.cleartrip.android:id/switcher_image, using=id}"
+          ],
+          "result": "id: 2",
+          "subLogs": [],
+          "duration": 38
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.id: com.cleartrip.android:id/switcher_image",
+            "{\"id\":\"2\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 69
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=com.cleartrip.android:id/switcher_image, using=id}"
+          ],
+          "result": "id: 3",
+          "subLogs": [],
+          "duration": 2899
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.id: com.cleartrip.android:id/switcher_image",
+            "{\"id\":\"3\"}"
+          ],
+          "result": "clickElement:true",
+          "subLogs": [],
+          "duration": 1539
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "fromflight",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=com.cleartrip.android:id/txt_from_city, using=id}"
+          ],
+          "result": "id: 4",
+          "subLogs": [],
+          "duration": 6601
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.id: com.cleartrip.android:id/txt_from_city",
+            "{\"id\":\"4\"}"
+          ],
+          "result": "clickElement:true",
+          "subLogs": [],
+          "duration": 1829
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "sourcename",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=com.cleartrip.android:id/filter_edittext, using=id}"
+          ],
+          "result": "[id: 5]",
+          "subLogs": [],
+          "duration": 3193
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=com.cleartrip.android:id/filter_edittext, using=id}"
+          ],
+          "result": "id: 6",
+          "subLogs": [],
+          "duration": 540
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.id: com.cleartrip.android:id/filter_edittext",
+            "{\"id\":\"6\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 1405
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=com.cleartrip.android:id/filter_edittext, using=id}"
+          ],
+          "result": "id: 7",
+          "subLogs": [],
+          "duration": 1186
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.id: com.cleartrip.android:id/filter_edittext",
+            "{\"id\":\"7\",\"value\":[\"New Delhi\"]}"
+          ],
+          "result": "sendKeysToElement:true",
+          "subLogs": [],
+          "duration": 21588
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "sourceselection",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=com.cleartrip.android:id/localityName_in_setLocation, using=id}"
+          ],
+          "result": "id: 8",
+          "subLogs": [],
+          "duration": 346
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.id: com.cleartrip.android:id/localityName_in_setLocation",
+            "{\"id\":\"8\"}"
+          ],
+          "result": "clickElement:true",
+          "subLogs": [],
+          "duration": 1455
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "destinationclick",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=com.cleartrip.android:id/txt_to_city, using=id}"
+          ],
+          "result": "[id: 9]",
+          "subLogs": [],
+          "duration": 4834
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=com.cleartrip.android:id/txt_to_city, using=id}"
+          ],
+          "result": "id: 10",
+          "subLogs": [],
+          "duration": 530
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.id: com.cleartrip.android:id/txt_to_city",
+            "{\"id\":\"10\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 2408
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=com.cleartrip.android:id/txt_to_city, using=id}"
+          ],
+          "result": "id: 11",
+          "subLogs": [],
+          "duration": 550
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.id: com.cleartrip.android:id/txt_to_city",
+            "{\"id\":\"11\"}"
+          ],
+          "result": "clickElement:true",
+          "subLogs": [],
+          "duration": 1024
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "desinationcity",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=com.cleartrip.android:id/filter_edittext, using=id}"
+          ],
+          "result": "[id: 12]",
+          "subLogs": [],
+          "duration": 2759
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=com.cleartrip.android:id/filter_edittext, using=id}"
+          ],
+          "result": "id: 13",
+          "subLogs": [],
+          "duration": 641
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.id: com.cleartrip.android:id/filter_edittext",
+            "{\"id\":\"13\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 494
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=com.cleartrip.android:id/filter_edittext, using=id}"
+          ],
+          "result": "id: 14",
+          "subLogs": [],
+          "duration": 1436
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.id: com.cleartrip.android:id/filter_edittext",
+            "{\"id\":\"14\"}"
+          ],
+          "result": "clickElement:true",
+          "subLogs": [],
+          "duration": 1283
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=com.cleartrip.android:id/filter_edittext, using=id}"
+          ],
+          "result": "id: 15",
+          "subLogs": [],
+          "duration": 618
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.id: com.cleartrip.android:id/filter_edittext",
+            "{\"id\":\"15\",\"value\":[\"Bangalore\"]}"
+          ],
+          "result": "sendKeysToElement:true",
+          "subLogs": [],
+          "duration": 16908
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "destinationselect",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=com.cleartrip.android:id/localityName_in_setLocation, using=id}"
+          ],
+          "result": "[id: 16]",
+          "subLogs": [],
+          "duration": 2947
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=com.cleartrip.android:id/localityName_in_setLocation, using=id}"
+          ],
+          "result": "id: 17",
+          "subLogs": [],
+          "duration": 996
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.id: com.cleartrip.android:id/localityName_in_setLocation",
+            "{\"id\":\"17\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 1450
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=com.cleartrip.android:id/localityName_in_setLocation, using=id}"
+          ],
+          "result": "id: 18",
+          "subLogs": [],
+          "duration": 1073
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.id: com.cleartrip.android:id/localityName_in_setLocation",
+            "{\"id\":\"18\"}"
+          ],
+          "result": "clickElement:true",
+          "subLogs": [],
+          "duration": 1394
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "searchflight",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=com.cleartrip.android:id/fhf_btn_search_flights, using=id}"
+          ],
+          "result": "[id: 19]",
+          "subLogs": [],
+          "duration": 2699
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=com.cleartrip.android:id/fhf_btn_search_flights, using=id}"
+          ],
+          "result": "id: 20",
+          "subLogs": [],
+          "duration": 532
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.id: com.cleartrip.android:id/fhf_btn_search_flights",
+            "{\"id\":\"20\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 526
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=com.cleartrip.android:id/fhf_btn_search_flights, using=id}"
+          ],
+          "result": "id: 21",
+          "subLogs": [],
+          "duration": 489
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.id: com.cleartrip.android:id/fhf_btn_search_flights",
+            "{\"id\":\"21\"}"
+          ],
+          "result": "clickElement:true",
+          "subLogs": [],
+          "duration": 1434
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "flightselection",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=\t/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.support.v4.view.ViewPager/android.widget.RelativeLayout/android.support.v7.widget.RecyclerView/android.widget.LinearLayout[2]/android.widget.LinearLayout, using=xpath}"
+          ],
+          "result": "[id: 22]",
+          "subLogs": [],
+          "duration": 1037
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=\t/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.support.v4.view.ViewPager/android.widget.RelativeLayout/android.support.v7.widget.RecyclerView/android.widget.LinearLayout[2]/android.widget.LinearLayout, using=xpath}"
+          ],
+          "result": "id: 23",
+          "subLogs": [],
+          "duration": 519
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: \t/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.support.v4.view.ViewPager/android.widget.RelativeLayout/android.support.v7.widget.RecyclerView/android.widget.LinearLayout[2]/android.widget.LinearLayout",
+            "{\"id\":\"23\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 529
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=\t/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.support.v4.view.ViewPager/android.widget.RelativeLayout/android.support.v7.widget.RecyclerView/android.widget.LinearLayout[2]/android.widget.LinearLayout, using=xpath}"
+          ],
+          "result": "id: 24",
+          "subLogs": [],
+          "duration": 685
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: \t/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.support.v4.view.ViewPager/android.widget.RelativeLayout/android.support.v7.widget.RecyclerView/android.widget.LinearLayout[2]/android.widget.LinearLayout",
+            "{\"id\":\"24\"}"
+          ],
+          "result": "clickElement:true",
+          "subLogs": [],
+          "duration": 2626
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given User switches to flights",
+      "type": "TestStepPass",
+      "duration": 27120,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When User click in from button",
+      "type": "TestStepPass",
+      "duration": 8443,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And User enter the source name",
+      "type": "TestStepPass",
+      "duration": 28921,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And User selected the source name",
+      "type": "TestStepPass",
+      "duration": 1808,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And User click on destination btn",
+      "type": "TestStepPass",
+      "duration": 9357,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And User entered the destination city",
+      "type": "TestStepPass",
+      "duration": 24153,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And User selected the destination city",
+      "type": "TestStepPass",
+      "duration": 7872,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And User click on search button",
+      "type": "TestStepPass",
+      "duration": 9686,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And User selecting flight",
+      "type": "TestStepPass",
+      "duration": 9408,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

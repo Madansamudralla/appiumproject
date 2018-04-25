@@ -1,0 +1,91 @@
+13:54:29 scenario.file.loc[Ljava.lang.String;@1ee807c6
+13:54:29 loading BDD file: scenarios/suite1.bdd
+13:54:29 total test found: 1
+13:54:30 
+
+Executing scenario: SampleTest - Sample Test Scenario
+13:54:30 pkg: com.qmetry.qaf.automation.step
+13:54:30 pkg: com.appium_kart
+13:54:30 Found duplicate step to load [] with [lower] prority then []
+13:54:30 Invoking Teststep: Given User switches to flights
+13:54:54 Completed Teststep: Given User switches to flights
+13:54:54 Invoking Teststep: When User click in from button
+13:55:24 Failure Teststep: When User click in from button
+org.openqa.selenium.TimeoutException: Timed out after 30 seconds waiting for presence of element located by: By.id: com.cleartrip.android:id/txt_from_city
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'ICPL12782', ip: '192.168.81.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: driver.version: QAFExtendedWebDriver
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:292)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:261)
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.load(QAFExtendedWebDriver.java:214)
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.load(QAFExtendedWebElement.java:284)
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.execute(QAFExtendedWebElement.java:239)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+	at com.appium_kart.Source_flightTestPage.fromflight(Source_flightTestPage.java:32)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:160)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:167)
+	at com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:219)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:781)
+	at org.testng.TestRunner.run(TestRunner.java:635)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 6.11 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'ICPL12782', ip: '192.168.81.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{appPackage=com.cleartrip.android, deviceScreenSize=720x1280, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=9cb99039, platform=LINUX, deviceUDID=9cb99039, appActivity=com.cleartrip.android.common.activities.CleartripHomeActivity, browser_name=, desired={appPackage=com.cleartrip.android, appActivity=com.cleartrip.android.common.activities.CleartripHomeActivity, browser_name=, driverClass=io.appium.java_client.android.AndroidDriver, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, platformName=Android, deviceName=9cb99039, cssSelectorsEnabled=true}, driverClass=io.appium.java_client.android.AndroidDriver, platformVersion=5.1.1, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, deviceModel=A37f, platformName=Android, deviceManufacturer=OPPO, cssSelectorsEnabled=true}]
+Session ID: 386dc6b4-4f32-466e-ab46-b61fb49467a6
+*** Element info: {Using=id, value=com.cleartrip.android:id/txt_from_city}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.execute(QAFExtendedWebDriver.java:234)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:413)
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.findElementById(QAFExtendedWebDriver.java:373)
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.findElementById(QAFExtendedWebDriver.java:1)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.findElement(QAFExtendedWebDriver.java:169)
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.findElement(QAFExtendedWebDriver.java:1)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:899)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:41)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:181)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:178)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:238)
+	... 39 more
+13:55:24 Completed Teststep: When User click in from button
+13:55:24 Competed scenario: SampleTest with status FAILURE

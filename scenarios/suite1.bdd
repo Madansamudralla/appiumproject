@@ -1,0 +1,16 @@
+
+
+SCENARIO: SampleTest
+META-DATA: {"description":"Sample Test Scenario","groups":["SMOKE"]}
+	
+ Given User switches to flights 
+ When User click in from button
+ And User enter the source name 
+ And User selected the source name
+ And User click on destination btn
+ And User entered the destination city
+ And User selected the destination city
+ And User click on search button
+ And User selecting flight	
+END
+

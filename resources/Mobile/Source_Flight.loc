@@ -1,0 +1,3 @@
+fromFlight.click = {\"locator\":\"id=com.cleartrip.android:id/txt_from_city\",\"desc\":\"Users click on from flight\"}
+source.send = {\"locator\":\"id=com.cleartrip.android:id/filter_edittext\",\"desc\":\"User passes the source in the text field\"}
+selectsource.click = {\"locator\":\"id=com.cleartrip.android:id/localityName_in_setLocation\",\"desc\":\"User click on selected sourcename\"}

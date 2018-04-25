@@ -1,0 +1,413 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "switchtoflight",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=com.cleartrip.android:id/switcher_image, using=id}"
+          ],
+          "result": "[id: 1]",
+          "subLogs": [],
+          "duration": 1594
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=com.cleartrip.android:id/switcher_image, using=id}"
+          ],
+          "result": "id: 2",
+          "subLogs": [],
+          "duration": 474
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.id: com.cleartrip.android:id/switcher_image",
+            "{\"id\":\"2\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 2459
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=com.cleartrip.android:id/switcher_image, using=id}"
+          ],
+          "result": "id: 3",
+          "subLogs": [],
+          "duration": 533
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.id: com.cleartrip.android:id/switcher_image",
+            "{\"id\":\"3\"}"
+          ],
+          "result": "clickElement:true",
+          "subLogs": [],
+          "duration": 1058
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "fromflight",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=com.cleartrip.android:id/txt_from_city, using=id}"
+          ],
+          "result": "An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 5.39 seconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12782', ip: '192.168.81.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.cleartrip.android, deviceScreenSize=720x1280, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=9cb99039, platform=LINUX, deviceUDID=9cb99039, appActivity=com.cleartrip.android.common.activities.CleartripHomeActivity, browser_name=, desired={appPackage=com.cleartrip.android, appActivity=com.cleartrip.android.common.activities.CleartripHomeActivity, browser_name=, driverClass=io.appium.java_client.android.AndroidDriver, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, platformName=Android, deviceName=9cb99039, cssSelectorsEnabled=true}, driverClass=io.appium.java_client.android.AndroidDriver, platformVersion=5.1.1, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, deviceModel=A37f, platformName=Android, deviceManufacturer=OPPO, cssSelectorsEnabled=true}]\nSession ID: df790e90-41c8-4619-bc21-4babe59ec6aa\n*** Element info: {Using=id, value=com.cleartrip.android:id/txt_from_city}",
+          "subLogs": [],
+          "duration": 5395
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=com.cleartrip.android:id/txt_from_city, using=id}"
+          ],
+          "result": "An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 674 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12782', ip: '192.168.81.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.cleartrip.android, deviceScreenSize=720x1280, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=9cb99039, platform=LINUX, deviceUDID=9cb99039, appActivity=com.cleartrip.android.common.activities.CleartripHomeActivity, browser_name=, desired={appPackage=com.cleartrip.android, appActivity=com.cleartrip.android.common.activities.CleartripHomeActivity, browser_name=, driverClass=io.appium.java_client.android.AndroidDriver, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, platformName=Android, deviceName=9cb99039, cssSelectorsEnabled=true}, driverClass=io.appium.java_client.android.AndroidDriver, platformVersion=5.1.1, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, deviceModel=A37f, platformName=Android, deviceManufacturer=OPPO, cssSelectorsEnabled=true}]\nSession ID: df790e90-41c8-4619-bc21-4babe59ec6aa\n*** Element info: {Using=id, value=com.cleartrip.android:id/txt_from_city}",
+          "subLogs": [],
+          "duration": 674
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=com.cleartrip.android:id/txt_from_city, using=id}"
+          ],
+          "result": "An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 2.47 seconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12782', ip: '192.168.81.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.cleartrip.android, deviceScreenSize=720x1280, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=9cb99039, platform=LINUX, deviceUDID=9cb99039, appActivity=com.cleartrip.android.common.activities.CleartripHomeActivity, browser_name=, desired={appPackage=com.cleartrip.android, appActivity=com.cleartrip.android.common.activities.CleartripHomeActivity, browser_name=, driverClass=io.appium.java_client.android.AndroidDriver, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, platformName=Android, deviceName=9cb99039, cssSelectorsEnabled=true}, driverClass=io.appium.java_client.android.AndroidDriver, platformVersion=5.1.1, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, deviceModel=A37f, platformName=Android, deviceManufacturer=OPPO, cssSelectorsEnabled=true}]\nSession ID: df790e90-41c8-4619-bc21-4babe59ec6aa\n*** Element info: {Using=id, value=com.cleartrip.android:id/txt_from_city}",
+          "subLogs": [],
+          "duration": 2470
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=com.cleartrip.android:id/txt_from_city, using=id}"
+          ],
+          "result": "id: 4",
+          "subLogs": [],
+          "duration": 5910
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.id: com.cleartrip.android:id/txt_from_city",
+            "{\"id\":\"4\"}"
+          ],
+          "result": "clickElement:true",
+          "subLogs": [],
+          "duration": 2057
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "sourcename",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=com.cleartrip.android:id/filter_edittext, using=id}"
+          ],
+          "result": "[id: 5]",
+          "subLogs": [],
+          "duration": 1930
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=com.cleartrip.android:id/filter_edittext, using=id}"
+          ],
+          "result": "id: 6",
+          "subLogs": [],
+          "duration": 1113
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.id: com.cleartrip.android:id/filter_edittext",
+            "{\"id\":\"6\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 526
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=com.cleartrip.android:id/filter_edittext, using=id}"
+          ],
+          "result": "id: 7",
+          "subLogs": [],
+          "duration": 2417
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.id: com.cleartrip.android:id/filter_edittext",
+            "{\"id\":\"7\",\"value\":[\"New Delhi\"]}"
+          ],
+          "result": "sendKeysToElement:true",
+          "subLogs": [],
+          "duration": 19919
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "sourceselection",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=com.cleartrip.android:id/localityName_in_setLocation, using=id}"
+          ],
+          "result": "id: 8",
+          "subLogs": [],
+          "duration": 180
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.id: com.cleartrip.android:id/localityName_in_setLocation",
+            "{\"id\":\"8\"}"
+          ],
+          "result": "clickElement:true",
+          "subLogs": [],
+          "duration": 2359
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "destinationclick",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=com.cleartrip.android:id/txt_to_city, using=id}"
+          ],
+          "result": "[id: 9]",
+          "subLogs": [],
+          "duration": 1689
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=com.cleartrip.android:id/txt_to_city, using=id}"
+          ],
+          "result": "id: 10",
+          "subLogs": [],
+          "duration": 1078
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.id: com.cleartrip.android:id/txt_to_city",
+            "{\"id\":\"10\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 536
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=com.cleartrip.android:id/txt_to_city, using=id}"
+          ],
+          "result": "id: 11",
+          "subLogs": [],
+          "duration": 520
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.id: com.cleartrip.android:id/txt_to_city",
+            "{\"id\":\"11\"}"
+          ],
+          "result": "clickElement:true",
+          "subLogs": [],
+          "duration": 832
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "desinationcity",
+      "args": [
+        "[]"
+      ],
+      "result": "fail",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=com.cleartrip.android:id/txt_to_city, using=id}"
+          ],
+          "result": "An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 10.21 seconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12782', ip: '192.168.81.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.cleartrip.android, deviceScreenSize=720x1280, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=9cb99039, platform=LINUX, deviceUDID=9cb99039, appActivity=com.cleartrip.android.common.activities.CleartripHomeActivity, browser_name=, desired={appPackage=com.cleartrip.android, appActivity=com.cleartrip.android.common.activities.CleartripHomeActivity, browser_name=, driverClass=io.appium.java_client.android.AndroidDriver, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, platformName=Android, deviceName=9cb99039, cssSelectorsEnabled=true}, driverClass=io.appium.java_client.android.AndroidDriver, platformVersion=5.1.1, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, deviceModel=A37f, platformName=Android, deviceManufacturer=OPPO, cssSelectorsEnabled=true}]\nSession ID: df790e90-41c8-4619-bc21-4babe59ec6aa\n*** Element info: {Using=id, value=com.cleartrip.android:id/txt_to_city}",
+          "subLogs": [],
+          "duration": 10215
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=com.cleartrip.android:id/txt_to_city, using=id}"
+          ],
+          "result": "An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 1.92 seconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12782', ip: '192.168.81.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.cleartrip.android, deviceScreenSize=720x1280, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=9cb99039, platform=LINUX, deviceUDID=9cb99039, appActivity=com.cleartrip.android.common.activities.CleartripHomeActivity, browser_name=, desired={appPackage=com.cleartrip.android, appActivity=com.cleartrip.android.common.activities.CleartripHomeActivity, browser_name=, driverClass=io.appium.java_client.android.AndroidDriver, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, platformName=Android, deviceName=9cb99039, cssSelectorsEnabled=true}, driverClass=io.appium.java_client.android.AndroidDriver, platformVersion=5.1.1, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, deviceModel=A37f, platformName=Android, deviceManufacturer=OPPO, cssSelectorsEnabled=true}]\nSession ID: df790e90-41c8-4619-bc21-4babe59ec6aa\n*** Element info: {Using=id, value=com.cleartrip.android:id/txt_to_city}",
+          "subLogs": [],
+          "duration": 1924
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=com.cleartrip.android:id/txt_to_city, using=id}"
+          ],
+          "result": "An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 4.13 seconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12782', ip: '192.168.81.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.cleartrip.android, deviceScreenSize=720x1280, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=9cb99039, platform=LINUX, deviceUDID=9cb99039, appActivity=com.cleartrip.android.common.activities.CleartripHomeActivity, browser_name=, desired={appPackage=com.cleartrip.android, appActivity=com.cleartrip.android.common.activities.CleartripHomeActivity, browser_name=, driverClass=io.appium.java_client.android.AndroidDriver, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, platformName=Android, deviceName=9cb99039, cssSelectorsEnabled=true}, driverClass=io.appium.java_client.android.AndroidDriver, platformVersion=5.1.1, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, deviceModel=A37f, platformName=Android, deviceManufacturer=OPPO, cssSelectorsEnabled=true}]\nSession ID: df790e90-41c8-4619-bc21-4babe59ec6aa\n*** Element info: {Using=id, value=com.cleartrip.android:id/txt_to_city}",
+          "subLogs": [],
+          "duration": 4127
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=com.cleartrip.android:id/txt_to_city, using=id}"
+          ],
+          "result": "An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 1.91 seconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12782', ip: '192.168.81.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.cleartrip.android, deviceScreenSize=720x1280, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=9cb99039, platform=LINUX, deviceUDID=9cb99039, appActivity=com.cleartrip.android.common.activities.CleartripHomeActivity, browser_name=, desired={appPackage=com.cleartrip.android, appActivity=com.cleartrip.android.common.activities.CleartripHomeActivity, browser_name=, driverClass=io.appium.java_client.android.AndroidDriver, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, platformName=Android, deviceName=9cb99039, cssSelectorsEnabled=true}, driverClass=io.appium.java_client.android.AndroidDriver, platformVersion=5.1.1, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, deviceModel=A37f, platformName=Android, deviceManufacturer=OPPO, cssSelectorsEnabled=true}]\nSession ID: df790e90-41c8-4619-bc21-4babe59ec6aa\n*** Element info: {Using=id, value=com.cleartrip.android:id/txt_to_city}",
+          "subLogs": [],
+          "duration": 1914
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=com.cleartrip.android:id/txt_to_city, using=id}"
+          ],
+          "result": "An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 4.17 seconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12782', ip: '192.168.81.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.cleartrip.android, deviceScreenSize=720x1280, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=9cb99039, platform=LINUX, deviceUDID=9cb99039, appActivity=com.cleartrip.android.common.activities.CleartripHomeActivity, browser_name=, desired={appPackage=com.cleartrip.android, appActivity=com.cleartrip.android.common.activities.CleartripHomeActivity, browser_name=, driverClass=io.appium.java_client.android.AndroidDriver, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, platformName=Android, deviceName=9cb99039, cssSelectorsEnabled=true}, driverClass=io.appium.java_client.android.AndroidDriver, platformVersion=5.1.1, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, deviceModel=A37f, platformName=Android, deviceManufacturer=OPPO, cssSelectorsEnabled=true}]\nSession ID: df790e90-41c8-4619-bc21-4babe59ec6aa\n*** Element info: {Using=id, value=com.cleartrip.android:id/txt_to_city}",
+          "subLogs": [],
+          "duration": 4169
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=com.cleartrip.android:id/txt_to_city, using=id}"
+          ],
+          "result": "An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 1.91 seconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12782', ip: '192.168.81.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.cleartrip.android, deviceScreenSize=720x1280, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=9cb99039, platform=LINUX, deviceUDID=9cb99039, appActivity=com.cleartrip.android.common.activities.CleartripHomeActivity, browser_name=, desired={appPackage=com.cleartrip.android, appActivity=com.cleartrip.android.common.activities.CleartripHomeActivity, browser_name=, driverClass=io.appium.java_client.android.AndroidDriver, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, platformName=Android, deviceName=9cb99039, cssSelectorsEnabled=true}, driverClass=io.appium.java_client.android.AndroidDriver, platformVersion=5.1.1, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, deviceModel=A37f, platformName=Android, deviceManufacturer=OPPO, cssSelectorsEnabled=true}]\nSession ID: df790e90-41c8-4619-bc21-4babe59ec6aa\n*** Element info: {Using=id, value=com.cleartrip.android:id/txt_to_city}",
+          "subLogs": [],
+          "duration": 1907
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=com.cleartrip.android:id/txt_to_city, using=id}"
+          ],
+          "result": "An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 5.26 seconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12782', ip: '192.168.81.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.cleartrip.android, deviceScreenSize=720x1280, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=9cb99039, platform=LINUX, deviceUDID=9cb99039, appActivity=com.cleartrip.android.common.activities.CleartripHomeActivity, browser_name=, desired={appPackage=com.cleartrip.android, appActivity=com.cleartrip.android.common.activities.CleartripHomeActivity, browser_name=, driverClass=io.appium.java_client.android.AndroidDriver, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, platformName=Android, deviceName=9cb99039, cssSelectorsEnabled=true}, driverClass=io.appium.java_client.android.AndroidDriver, platformVersion=5.1.1, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, deviceModel=A37f, platformName=Android, deviceManufacturer=OPPO, cssSelectorsEnabled=true}]\nSession ID: df790e90-41c8-4619-bc21-4babe59ec6aa\n*** Element info: {Using=id, value=com.cleartrip.android:id/txt_to_city}",
+          "subLogs": [],
+          "duration": 5259
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.id: com.cleartrip.android:id/txt_to_city",
+            "{\"id\":\"-1\",\"value\":[\"Bangalore\"]}"
+          ],
+          "result": "Timed out after 30 seconds waiting for presence of element located by: By.id: com.cleartrip.android:id/txt_to_city\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12782', ip: '192.168.81.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: driver.version: QAFExtendedWebDriver",
+          "subLogs": [],
+          "duration": -66245489
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "And User selected the destination city",
+      "args": [
+        "[]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given User switches to flights",
+      "type": "TestStepPass",
+      "duration": 27217,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When User click in from button",
+      "type": "TestStepPass",
+      "duration": 19558,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And User enter the source name",
+      "type": "TestStepPass",
+      "duration": 29950,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And User selected the source name",
+      "type": "TestStepPass",
+      "duration": 2564,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And User click on destination btn",
+      "type": "TestStepPass",
+      "duration": 4672,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And User entered the destination city",
+      "type": "TestStepFail",
+      "screenshot": "test-results/25_Apr_2018_02_33_PM/img/SampleTest_tkf9s4gdwf163056.png",
+      "duration": 35616,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Timed out after 30 seconds waiting for presence of element located by: By.id: com.cleartrip.android:id/txt_to_city\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12782', ip: '192.168.81.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: driver.version: QAFExtendedWebDriver",
+          "type": "Fail",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "And User selected the destination city",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": "org.openqa.selenium.TimeoutException: Timed out after 30 seconds waiting for presence of element located by: By.id: com.cleartrip.android:id/txt_to_city\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12782', ip: '192.168.81.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: driver.version: QAFExtendedWebDriver\r\n\tat .And User entered the destination city(scenarios/suite1.bdd:11)\r\n\tat org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:292)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:261)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.load(QAFExtendedWebDriver.java:214)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.load(QAFExtendedWebElement.java:284)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.execute(QAFExtendedWebElement.java:239)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:122)\r\n\tat com.appium_kart.Destination_flightTestPage.desinationcity_aroundBody2(Destination_flightTestPage.java:43)\r\n\tat com.qmetry.qaf.automation.step.JavaStepReporter.javaTestStep(JavaStepReporter.java:101)\r\n\tat com.appium_kart.Destination_flightTestPage.desinationcity(Destination_flightTestPage.java:42)\r\n\tat com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:160)\r\n\tat com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)\r\n\tat com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:167)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:219)\r\nCaused by: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 5.26 seconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12782', ip: '192.168.81.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.cleartrip.android, deviceScreenSize=720x1280, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=9cb99039, platform=LINUX, deviceUDID=9cb99039, appActivity=com.cleartrip.android.common.activities.CleartripHomeActivity, browser_name=, desired={appPackage=com.cleartrip.android, appActivity=com.cleartrip.android.common.activities.CleartripHomeActivity, browser_name=, driverClass=io.appium.java_client.android.AndroidDriver, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, platformName=Android, deviceName=9cb99039, cssSelectorsEnabled=true}, driverClass=io.appium.java_client.android.AndroidDriver, platformVersion=5.1.1, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, deviceModel=A37f, platformName=Android, deviceManufacturer=OPPO, cssSelectorsEnabled=true}]\nSession ID: df790e90-41c8-4619-bc21-4babe59ec6aa\n*** Element info: {Using=id, value=com.cleartrip.android:id/txt_to_city}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.execute(QAFExtendedWebDriver.java:234)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:413)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.findElementById(QAFExtendedWebDriver.java:373)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.findElementById(QAFExtendedWebDriver.java:1)\r\n\tat org.openqa.selenium.By$ById.findElement(By.java:218)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.findElement(QAFExtendedWebDriver.java:169)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.findElement(QAFExtendedWebDriver.java:1)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:899)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:41)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:181)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:178)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:238)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.load(QAFExtendedWebDriver.java:214)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.load(QAFExtendedWebElement.java:284)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.execute(QAFExtendedWebElement.java:239)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:122)\r\n\tat com.appium_kart.Destination_flightTestPage.desinationcity_aroundBody2(Destination_flightTestPage.java:43)\r\n\tat com.appium_kart.Destination_flightTestPage$AjcClosure3.run(Destination_flightTestPage.java:1)\r\n\tat org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)\r\n\tat com.qmetry.qaf.automation.step.JavaStepReporter.javaTestStep(JavaStepReporter.java:101)\r\n\tat com.appium_kart.Destination_flightTestPage.desinationcity(Destination_flightTestPage.java:42)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\r\n\tat java.lang.reflect.Method.invoke(Unknown Source)\r\n\tat com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:160)\r\n\tat com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)\r\n\tat com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:167)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:219)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\r\n\tat java.lang.reflect.Method.invoke(Unknown Source)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)\r\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:645)\r\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)\r\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:781)\r\n\tat org.testng.TestRunner.run(TestRunner.java:635)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:387)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:289)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1218)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:1133)\r\n\tat org.testng.TestNG.run(TestNG.java:1104)\r\n\tat org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)\r\n\tat org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)\r\n\tat org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)\r\n"
+}

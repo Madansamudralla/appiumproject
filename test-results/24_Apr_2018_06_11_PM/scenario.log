@@ -1,0 +1,19 @@
+18:11:49 scenario.file.loc[Ljava.lang.String;@1ee807c6
+18:11:49 loading BDD file: scenarios/suite1.bdd
+18:11:49 total test found: 1
+18:11:50 
+
+Executing scenario: SampleTest - Sample Test Scenario
+18:11:50 pkg: com.qmetry.qaf.automation.step
+18:11:50 pkg: com.appium_kart
+18:11:50 Found duplicate step to load [] with [lower] prority then []
+18:11:50 
+/**
+* Auto-generated code snippet by QMetry Automation Framework.
+*/
+@QAFTestStep(description="User clicks on login close button")
+public void userClicksOnLoginCloseButton(){
+	//TODO: remove NotYetImplementedException and call test steps
+	throw new NotYetImplementedException();
+}
+18:11:50 Competed scenario: SampleTest with status FAILURE

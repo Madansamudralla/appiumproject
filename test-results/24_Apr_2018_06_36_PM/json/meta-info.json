@@ -1,0 +1,13 @@
+{
+  "name": "appium_kart.scenarios.suite1.bdd",
+  "status": "fail",
+  "tests": [
+    "BDDTest"
+  ],
+  "total": 1,
+  "pass": 0,
+  "fail": 1,
+  "skip": 0,
+  "startTime": 1524575218327,
+  "endTime": 1524575281211
+}

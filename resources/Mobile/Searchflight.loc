@@ -1,0 +1,1 @@
+Searchflightbtn.click = {\"locator\":\"id=com.cleartrip.android:id/fhf_btn_search_flights\",\"desc\":\"User click on search btn\"}

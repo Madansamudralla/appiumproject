@@ -1,0 +1,687 @@
+[main] 17:50:52,611 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFAnnotationTransformer2] QAFTestNGListener registered!...
+[main] 17:50:52,618 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] QAFTestNGListener registered!...
+[main] 17:50:52,619 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFMethodInterceptor] QAFTestNGListener registered!...
+[main] 17:50:52,620 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFResultListener] QAFTestNGListener registered!...
+[main] 17:50:52,620 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFSuiteListener] QAFTestNGListener registered!...
+[main] 17:50:52,819 INFO  [com.qmetry.qaf.automation.core.ConfigurationManager] ISFW build info: {qaf-Type=core, qaf-Revision=12-RC3, qaf-Version=2.1, qaf-Build-Time=06-Aug-2017 11:49:43}
+[main] 17:50:52,833 INFO  [com.qmetry.qaf.automation.core.ConfigurationManager] Resource dir: D:\qas_assigment\appium_kart\resources\Mobile. Found property files to load: 0
+[main] 17:50:52,851 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:file.encoding.pkg
+[main] 17:50:52,851 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:file.encoding
+[main] 17:50:52,851 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:file.separator
+[main] 17:50:52,851 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.country
+[main] 17:50:52,851 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.script
+[main] 17:50:52,851 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.dir
+[main] 17:50:52,851 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.variant
+[main] 17:50:52,851 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.home
+[main] 17:50:52,852 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.timezone
+[main] 17:50:52,852 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.name
+[main] 17:50:52,852 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.language
+[main] 17:50:52,852 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:selenium.screenshots.relative.path
+[main] 17:50:52,852 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:selenium.screenshots.dir
+[main] 17:50:52,852 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:os.arch
+[main] 17:50:52,852 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:os.name
+[main] 17:50:52,852 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:os.version
+[main] 17:50:52,853 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:line.separator
+[main] 17:50:52,853 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:log4j.configuration
+[main] 17:50:52,853 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:json.report.dir
+[main] 17:50:52,853 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:awt.toolkit
+[main] 17:50:52,853 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:outputDir
+[main] 17:50:52,855 INFO  [com.qmetry.qaf.automation.core.ConfigurationManager] Resource dir: D:\qas_assigment\appium_kart\resources\Mobile. Found property files to load: 0
+[main] 17:50:52,858 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:file.encoding.pkg
+[main] 17:50:52,858 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:file.encoding
+[main] 17:50:52,858 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:file.separator
+[main] 17:50:52,858 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.country
+[main] 17:50:52,858 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.script
+[main] 17:50:52,858 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.dir
+[main] 17:50:52,859 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.variant
+[main] 17:50:52,859 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.home
+[main] 17:50:52,859 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.timezone
+[main] 17:50:52,859 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.name
+[main] 17:50:52,859 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.language
+[main] 17:50:52,859 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:selenium.screenshots.relative.path
+[main] 17:50:52,859 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:selenium.screenshots.dir
+[main] 17:50:52,859 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:os.arch
+[main] 17:50:52,859 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:os.name
+[main] 17:50:52,860 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:os.version
+[main] 17:50:52,860 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:line.separator
+[main] 17:50:52,860 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:log4j.configuration
+[main] 17:50:52,860 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:json.report.dir
+[main] 17:50:52,860 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:awt.toolkit
+[main] 17:50:52,860 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:outputDir
+[main] 17:50:53,069 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: setupSuit
+[main] 17:50:53,075 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: setupSuit - com.qmetry.qaf.automation.ui is test:false
+[main] 17:50:53,075 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 17:50:53,077 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: setupTest
+[main] 17:50:53,079 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: setupTest - com.qmetry.qaf.automation.ui is test:false
+[main] 17:50:53,079 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 17:50:53,080 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFMethodInterceptor] Method Order interceptor called
+[main] 17:50:53,083 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: setup
+[main] 17:50:53,084 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: setup - com.qmetry.qaf.automation.ui is test:false
+[main] 17:50:53,084 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 17:50:53,095 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: setupMethod
+[main] 17:50:53,095 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: setupMethod - com.qmetry.qaf.automation.ui is test:false
+[main] 17:50:53,095 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 17:50:53,100 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFResultListener] onTestStart: start
+[main] 17:50:53,100 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: SampleTest
+[main] 17:50:53,340 INFO  [com.qmetry.qaf.automation.core.QAFTestBase] Initializing Driver...browser_str:appiumDriver,base_url:http://localhost:4723/wd/hub,sel_server:localhost,port:4723
+[main] 17:50:53,377 INFO  [com.qmetry.qaf.automation.ui.UiDriverFactory] Driver: appiumDriver
+[Forwarding newSession on session null to remote] 17:50:54,045 DEBUG [org.apache.http.client.protocol.RequestAddCookies] CookieSpec selected: default
+[Forwarding newSession on session null to remote] 17:50:54,054 DEBUG [org.apache.http.client.protocol.RequestAuthCache] Auth cache not set in the context
+[Forwarding newSession on session null to remote] 17:50:54,055 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection request: [route: {}->http://localhost:4723][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+[Forwarding newSession on session null to remote] 17:50:54,068 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection leased: [id: 0][route: {}->http://localhost:4723][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding newSession on session null to remote] 17:50:54,069 DEBUG [org.apache.http.impl.execchain.MainClientExec] Opening connection {}->http://localhost:4723
+[Forwarding newSession on session null to remote] 17:50:54,071 DEBUG [org.apache.http.impl.conn.DefaultHttpClientConnectionOperator] Connecting to localhost/127.0.0.1:4723
+[Forwarding newSession on session null to remote] 17:50:54,072 DEBUG [org.apache.http.impl.conn.DefaultHttpClientConnectionOperator] Connection established 127.0.0.1:53575<->127.0.0.1:4723
+[Forwarding newSession on session null to remote] 17:50:54,073 DEBUG [org.apache.http.impl.conn.DefaultManagedHttpClientConnection] http-outgoing-0: set socket timeout to 10800000
+[Forwarding newSession on session null to remote] 17:50:54,073 DEBUG [org.apache.http.impl.execchain.MainClientExec] Executing request POST /wd/hub/session HTTP/1.1
+[Forwarding newSession on session null to remote] 17:50:54,073 DEBUG [org.apache.http.impl.execchain.MainClientExec] Target auth state: UNCHALLENGED
+[Forwarding newSession on session null to remote] 17:50:54,073 DEBUG [org.apache.http.impl.execchain.MainClientExec] Proxy auth state: UNCHALLENGED
+[Forwarding newSession on session null to remote] 17:50:54,075 DEBUG [org.apache.http.headers] http-outgoing-0 >> POST /wd/hub/session HTTP/1.1
+[Forwarding newSession on session null to remote] 17:50:54,075 DEBUG [org.apache.http.headers] http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+[Forwarding newSession on session null to remote] 17:50:54,075 DEBUG [org.apache.http.headers] http-outgoing-0 >> Content-Length: 368
+[Forwarding newSession on session null to remote] 17:50:54,075 DEBUG [org.apache.http.headers] http-outgoing-0 >> Host: localhost:4723
+[Forwarding newSession on session null to remote] 17:50:54,075 DEBUG [org.apache.http.headers] http-outgoing-0 >> Connection: Keep-Alive
+[Forwarding newSession on session null to remote] 17:50:54,075 DEBUG [org.apache.http.headers] http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_161)
+[Forwarding newSession on session null to remote] 17:50:54,076 DEBUG [org.apache.http.headers] http-outgoing-0 >> Accept-Encoding: gzip,deflate
+[Forwarding newSession on session null to remote] 17:50:54,076 DEBUG [org.apache.http.wire] http-outgoing-0 >> "POST /wd/hub/session HTTP/1.1[\r][\n]"
+[Forwarding newSession on session null to remote] 17:50:54,076 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+[Forwarding newSession on session null to remote] 17:50:54,076 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Content-Length: 368[\r][\n]"
+[Forwarding newSession on session null to remote] 17:50:54,076 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Host: localhost:4723[\r][\n]"
+[Forwarding newSession on session null to remote] 17:50:54,076 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+[Forwarding newSession on session null to remote] 17:50:54,076 DEBUG [org.apache.http.wire] http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_161)[\r][\n]"
+[Forwarding newSession on session null to remote] 17:50:54,076 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[Forwarding newSession on session null to remote] 17:50:54,076 DEBUG [org.apache.http.wire] http-outgoing-0 >> "[\r][\n]"
+[Forwarding newSession on session null to remote] 17:50:54,076 DEBUG [org.apache.http.wire] http-outgoing-0 >> "{"desiredCapabilities":{"appPackage":"com.cleartrip.android","appActivity":"com.cleartrip.android.common.activities.CleartripHomeActivity","browser_name":"","driverClass":"io.appium.java_client.android.AndroidDriver","automationName":"Appium","takesScreenshot":true,"javascriptEnabled":true,"platformName":"Android","deviceName":"9cb99039","cssSelectorsEnabled":true}}"
+[Forwarding newSession on session null to remote] 17:51:11,390 DEBUG [org.apache.http.wire] http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+[Forwarding newSession on session null to remote] 17:51:11,391 DEBUG [org.apache.http.wire] http-outgoing-0 << "X-Powered-By: Express[\r][\n]"
+[Forwarding newSession on session null to remote] 17:51:11,391 DEBUG [org.apache.http.wire] http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+[Forwarding newSession on session null to remote] 17:51:11,391 DEBUG [org.apache.http.wire] http-outgoing-0 << "Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE[\r][\n]"
+[Forwarding newSession on session null to remote] 17:51:11,391 DEBUG [org.apache.http.wire] http-outgoing-0 << "Access-Control-Allow-Headers: origin, content-type, accept[\r][\n]"
+[Forwarding newSession on session null to remote] 17:51:11,391 DEBUG [org.apache.http.wire] http-outgoing-0 << "Vary: X-HTTP-Method-Override[\r][\n]"
+[Forwarding newSession on session null to remote] 17:51:11,391 DEBUG [org.apache.http.wire] http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+[Forwarding newSession on session null to remote] 17:51:11,391 DEBUG [org.apache.http.wire] http-outgoing-0 << "Content-Length: 1046[\r][\n]"
+[Forwarding newSession on session null to remote] 17:51:11,392 DEBUG [org.apache.http.wire] http-outgoing-0 << "ETag: W/"416-j1LuJWlCnfiGU8rq7SSOFG8QPfA"[\r][\n]"
+[Forwarding newSession on session null to remote] 17:51:11,392 DEBUG [org.apache.http.wire] http-outgoing-0 << "Date: Wed, 25 Apr 2018 12:21:11 GMT[\r][\n]"
+[Forwarding newSession on session null to remote] 17:51:11,392 DEBUG [org.apache.http.wire] http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+[Forwarding newSession on session null to remote] 17:51:11,392 DEBUG [org.apache.http.wire] http-outgoing-0 << "[\r][\n]"
+[Forwarding newSession on session null to remote] 17:51:11,393 DEBUG [org.apache.http.wire] http-outgoing-0 << "{"status":0,"value":{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"appPackage":"com.cleartrip.android","appActivity":"com.cleartrip.android.common.activities.CleartripHomeActivity","browser_name":"","driverClass":"io.appium.java_client.android.AndroidDriver","automationName":"Appium","takesScreenshot":true,"javascriptEnabled":true,"platformName":"Android","deviceName":"9cb99039","cssSelectorsEnabled":true},"appPackage":"com.cleartrip.android","appActivity":"com.cleartrip.android.common.activities.CleartripHomeActivity","browser_name":"","driverClass":"io.appium.java_client.android.AndroidDriver","automationName":"Appium","platformName":"Android","deviceName":"9cb99039","cssSelectorsEnabled":true,"deviceUDID":"9cb99039","platformVersion":"5.1.1","deviceScreenSize":"720x1280","deviceModel":"A37f","deviceManufacturer":"OPPO"},"sessionId":"9fb294f8-9595-49c2-8df6-584fdad9f90b"}"
+[Forwarding newSession on session null to remote] 17:51:11,400 DEBUG [org.apache.http.headers] http-outgoing-0 << HTTP/1.1 200 OK
+[Forwarding newSession on session null to remote] 17:51:11,401 DEBUG [org.apache.http.headers] http-outgoing-0 << X-Powered-By: Express
+[Forwarding newSession on session null to remote] 17:51:11,401 DEBUG [org.apache.http.headers] http-outgoing-0 << Access-Control-Allow-Origin: *
+[Forwarding newSession on session null to remote] 17:51:11,401 DEBUG [org.apache.http.headers] http-outgoing-0 << Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE
+[Forwarding newSession on session null to remote] 17:51:11,401 DEBUG [org.apache.http.headers] http-outgoing-0 << Access-Control-Allow-Headers: origin, content-type, accept
+[Forwarding newSession on session null to remote] 17:51:11,401 DEBUG [org.apache.http.headers] http-outgoing-0 << Vary: X-HTTP-Method-Override
+[Forwarding newSession on session null to remote] 17:51:11,401 DEBUG [org.apache.http.headers] http-outgoing-0 << Content-Type: application/json; charset=utf-8
+[Forwarding newSession on session null to remote] 17:51:11,401 DEBUG [org.apache.http.headers] http-outgoing-0 << Content-Length: 1046
+[Forwarding newSession on session null to remote] 17:51:11,401 DEBUG [org.apache.http.headers] http-outgoing-0 << ETag: W/"416-j1LuJWlCnfiGU8rq7SSOFG8QPfA"
+[Forwarding newSession on session null to remote] 17:51:11,402 DEBUG [org.apache.http.headers] http-outgoing-0 << Date: Wed, 25 Apr 2018 12:21:11 GMT
+[Forwarding newSession on session null to remote] 17:51:11,402 DEBUG [org.apache.http.headers] http-outgoing-0 << Connection: keep-alive
+[Forwarding newSession on session null to remote] 17:51:11,409 DEBUG [org.apache.http.impl.execchain.MainClientExec] Connection can be kept alive indefinitely
+[Forwarding newSession on session null to remote] 17:51:11,415 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection [id: 0][route: {}->http://localhost:4723] can be kept alive indefinitely
+[Forwarding newSession on session null to remote] 17:51:11,416 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection released: [id: 0][route: {}->http://localhost:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[main] 17:51:11,447 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElements parameters: {"using":"id","value":"com.cleartrip.android:id/switcher_image"}
+[Forwarding findElements on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:11,448 DEBUG [org.apache.http.client.protocol.RequestAddCookies] CookieSpec selected: default
+[Forwarding findElements on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:11,449 DEBUG [org.apache.http.client.protocol.RequestAuthCache] Auth cache not set in the context
+[Forwarding findElements on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:11,449 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection request: [route: {}->http://localhost:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding findElements on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:11,449 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection leased: [id: 0][route: {}->http://localhost:4723][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding findElements on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:11,449 DEBUG [org.apache.http.impl.execchain.MainClientExec] Stale connection check
+[Forwarding findElements on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:11,450 DEBUG [org.apache.http.wire] http-outgoing-0 << "[read] I/O error: Read timed out"
+[Forwarding findElements on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:11,450 DEBUG [org.apache.http.impl.conn.DefaultManagedHttpClientConnection] http-outgoing-0: set socket timeout to 10800000
+[Forwarding findElements on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:11,451 DEBUG [org.apache.http.impl.execchain.MainClientExec] Executing request POST /wd/hub/session/9fb294f8-9595-49c2-8df6-584fdad9f90b/elements HTTP/1.1
+[Forwarding findElements on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:11,451 DEBUG [org.apache.http.impl.execchain.MainClientExec] Target auth state: UNCHALLENGED
+[Forwarding findElements on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:11,451 DEBUG [org.apache.http.impl.execchain.MainClientExec] Proxy auth state: UNCHALLENGED
+[Forwarding findElements on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:11,451 DEBUG [org.apache.http.headers] http-outgoing-0 >> POST /wd/hub/session/9fb294f8-9595-49c2-8df6-584fdad9f90b/elements HTTP/1.1
+[Forwarding findElements on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:11,451 DEBUG [org.apache.http.headers] http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+[Forwarding findElements on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:11,451 DEBUG [org.apache.http.headers] http-outgoing-0 >> Content-Length: 64
+[Forwarding findElements on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:11,451 DEBUG [org.apache.http.headers] http-outgoing-0 >> Host: localhost:4723
+[Forwarding findElements on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:11,451 DEBUG [org.apache.http.headers] http-outgoing-0 >> Connection: Keep-Alive
+[Forwarding findElements on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:11,451 DEBUG [org.apache.http.headers] http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_161)
+[Forwarding findElements on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:11,451 DEBUG [org.apache.http.headers] http-outgoing-0 >> Accept-Encoding: gzip,deflate
+[Forwarding findElements on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:11,451 DEBUG [org.apache.http.wire] http-outgoing-0 >> "POST /wd/hub/session/9fb294f8-9595-49c2-8df6-584fdad9f90b/elements HTTP/1.1[\r][\n]"
+[Forwarding findElements on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:11,451 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+[Forwarding findElements on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:11,451 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Content-Length: 64[\r][\n]"
+[Forwarding findElements on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:11,451 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Host: localhost:4723[\r][\n]"
+[Forwarding findElements on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:11,451 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+[Forwarding findElements on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:11,451 DEBUG [org.apache.http.wire] http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_161)[\r][\n]"
+[Forwarding findElements on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:11,451 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[Forwarding findElements on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:11,451 DEBUG [org.apache.http.wire] http-outgoing-0 >> "[\r][\n]"
+[Forwarding findElements on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:11,451 DEBUG [org.apache.http.wire] http-outgoing-0 >> "{"value":"com.cleartrip.android:id/switcher_image","using":"id"}"
+[Forwarding findElements on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:16,456 DEBUG [org.apache.http.wire] http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+[Forwarding findElements on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:16,456 DEBUG [org.apache.http.wire] http-outgoing-0 << "X-Powered-By: Express[\r][\n]"
+[Forwarding findElements on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:16,456 DEBUG [org.apache.http.wire] http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+[Forwarding findElements on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:16,456 DEBUG [org.apache.http.wire] http-outgoing-0 << "Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE[\r][\n]"
+[Forwarding findElements on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:16,456 DEBUG [org.apache.http.wire] http-outgoing-0 << "Access-Control-Allow-Headers: origin, content-type, accept[\r][\n]"
+[Forwarding findElements on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:16,456 DEBUG [org.apache.http.wire] http-outgoing-0 << "Vary: X-HTTP-Method-Override[\r][\n]"
+[Forwarding findElements on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:16,456 DEBUG [org.apache.http.wire] http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+[Forwarding findElements on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:16,456 DEBUG [org.apache.http.wire] http-outgoing-0 << "Content-Length: 89[\r][\n]"
+[Forwarding findElements on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:16,456 DEBUG [org.apache.http.wire] http-outgoing-0 << "ETag: W/"59-7y/uWyvkeawsdgJjJmeZzz754Po"[\r][\n]"
+[Forwarding findElements on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:16,456 DEBUG [org.apache.http.wire] http-outgoing-0 << "Date: Wed, 25 Apr 2018 12:21:16 GMT[\r][\n]"
+[Forwarding findElements on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:16,456 DEBUG [org.apache.http.wire] http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+[Forwarding findElements on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:16,456 DEBUG [org.apache.http.wire] http-outgoing-0 << "[\r][\n]"
+[Forwarding findElements on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:16,456 DEBUG [org.apache.http.wire] http-outgoing-0 << "{"status":0,"value":[{"ELEMENT":"1"}],"sessionId":"9fb294f8-9595-49c2-8df6-584fdad9f90b"}"
+[Forwarding findElements on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:16,457 DEBUG [org.apache.http.headers] http-outgoing-0 << HTTP/1.1 200 OK
+[Forwarding findElements on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:16,457 DEBUG [org.apache.http.headers] http-outgoing-0 << X-Powered-By: Express
+[Forwarding findElements on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:16,457 DEBUG [org.apache.http.headers] http-outgoing-0 << Access-Control-Allow-Origin: *
+[Forwarding findElements on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:16,457 DEBUG [org.apache.http.headers] http-outgoing-0 << Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE
+[Forwarding findElements on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:16,457 DEBUG [org.apache.http.headers] http-outgoing-0 << Access-Control-Allow-Headers: origin, content-type, accept
+[Forwarding findElements on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:16,457 DEBUG [org.apache.http.headers] http-outgoing-0 << Vary: X-HTTP-Method-Override
+[Forwarding findElements on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:16,457 DEBUG [org.apache.http.headers] http-outgoing-0 << Content-Type: application/json; charset=utf-8
+[Forwarding findElements on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:16,457 DEBUG [org.apache.http.headers] http-outgoing-0 << Content-Length: 89
+[Forwarding findElements on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:16,457 DEBUG [org.apache.http.headers] http-outgoing-0 << ETag: W/"59-7y/uWyvkeawsdgJjJmeZzz754Po"
+[Forwarding findElements on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:16,457 DEBUG [org.apache.http.headers] http-outgoing-0 << Date: Wed, 25 Apr 2018 12:21:16 GMT
+[Forwarding findElements on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:16,457 DEBUG [org.apache.http.headers] http-outgoing-0 << Connection: keep-alive
+[Forwarding findElements on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:16,457 DEBUG [org.apache.http.impl.execchain.MainClientExec] Connection can be kept alive indefinitely
+[Forwarding findElements on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:16,457 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection [id: 0][route: {}->http://localhost:4723] can be kept alive indefinitely
+[Forwarding findElements on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:16,457 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection released: [id: 0][route: {}->http://localhost:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[main] 17:51:16,460 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElements[ param-1: {value=com.cleartrip.android:id/switcher_image, using=id}] Result: [id: 1]
+[main] 17:51:16,463 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement parameters: {"using":"id","value":"com.cleartrip.android:id/switcher_image"}
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:16,464 DEBUG [org.apache.http.client.protocol.RequestAddCookies] CookieSpec selected: default
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:16,464 DEBUG [org.apache.http.client.protocol.RequestAuthCache] Auth cache not set in the context
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:16,464 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection request: [route: {}->http://localhost:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:16,464 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection leased: [id: 0][route: {}->http://localhost:4723][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:16,464 DEBUG [org.apache.http.impl.execchain.MainClientExec] Stale connection check
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:16,465 DEBUG [org.apache.http.wire] http-outgoing-0 << "[read] I/O error: Read timed out"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:16,465 DEBUG [org.apache.http.impl.conn.DefaultManagedHttpClientConnection] http-outgoing-0: set socket timeout to 10800000
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:16,465 DEBUG [org.apache.http.impl.execchain.MainClientExec] Executing request POST /wd/hub/session/9fb294f8-9595-49c2-8df6-584fdad9f90b/element HTTP/1.1
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:16,465 DEBUG [org.apache.http.impl.execchain.MainClientExec] Target auth state: UNCHALLENGED
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:16,465 DEBUG [org.apache.http.impl.execchain.MainClientExec] Proxy auth state: UNCHALLENGED
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:16,465 DEBUG [org.apache.http.headers] http-outgoing-0 >> POST /wd/hub/session/9fb294f8-9595-49c2-8df6-584fdad9f90b/element HTTP/1.1
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:16,465 DEBUG [org.apache.http.headers] http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:16,465 DEBUG [org.apache.http.headers] http-outgoing-0 >> Content-Length: 64
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:16,465 DEBUG [org.apache.http.headers] http-outgoing-0 >> Host: localhost:4723
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:16,465 DEBUG [org.apache.http.headers] http-outgoing-0 >> Connection: Keep-Alive
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:16,465 DEBUG [org.apache.http.headers] http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_161)
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:16,465 DEBUG [org.apache.http.headers] http-outgoing-0 >> Accept-Encoding: gzip,deflate
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:16,465 DEBUG [org.apache.http.wire] http-outgoing-0 >> "POST /wd/hub/session/9fb294f8-9595-49c2-8df6-584fdad9f90b/element HTTP/1.1[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:16,465 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:16,465 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Content-Length: 64[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:16,465 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Host: localhost:4723[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:16,465 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:16,465 DEBUG [org.apache.http.wire] http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_161)[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:16,465 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:16,465 DEBUG [org.apache.http.wire] http-outgoing-0 >> "[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:16,466 DEBUG [org.apache.http.wire] http-outgoing-0 >> "{"value":"com.cleartrip.android:id/switcher_image","using":"id"}"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:16,574 DEBUG [org.apache.http.wire] http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:16,574 DEBUG [org.apache.http.wire] http-outgoing-0 << "X-Powered-By: Express[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:16,574 DEBUG [org.apache.http.wire] http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:16,574 DEBUG [org.apache.http.wire] http-outgoing-0 << "Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:16,575 DEBUG [org.apache.http.wire] http-outgoing-0 << "Access-Control-Allow-Headers: origin, content-type, accept[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:16,575 DEBUG [org.apache.http.wire] http-outgoing-0 << "Vary: X-HTTP-Method-Override[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:16,575 DEBUG [org.apache.http.wire] http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:16,575 DEBUG [org.apache.http.wire] http-outgoing-0 << "Content-Length: 87[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:16,575 DEBUG [org.apache.http.wire] http-outgoing-0 << "ETag: W/"57-VQznLCuku7d6W1KCnyaunGsfxGg"[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:16,575 DEBUG [org.apache.http.wire] http-outgoing-0 << "Date: Wed, 25 Apr 2018 12:21:16 GMT[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:16,575 DEBUG [org.apache.http.wire] http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:16,575 DEBUG [org.apache.http.wire] http-outgoing-0 << "[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:16,575 DEBUG [org.apache.http.wire] http-outgoing-0 << "{"status":0,"value":{"ELEMENT":"2"},"sessionId":"9fb294f8-9595-49c2-8df6-584fdad9f90b"}"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:16,576 DEBUG [org.apache.http.headers] http-outgoing-0 << HTTP/1.1 200 OK
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:16,577 DEBUG [org.apache.http.headers] http-outgoing-0 << X-Powered-By: Express
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:16,577 DEBUG [org.apache.http.headers] http-outgoing-0 << Access-Control-Allow-Origin: *
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:16,577 DEBUG [org.apache.http.headers] http-outgoing-0 << Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:16,577 DEBUG [org.apache.http.headers] http-outgoing-0 << Access-Control-Allow-Headers: origin, content-type, accept
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:16,577 DEBUG [org.apache.http.headers] http-outgoing-0 << Vary: X-HTTP-Method-Override
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:16,577 DEBUG [org.apache.http.headers] http-outgoing-0 << Content-Type: application/json; charset=utf-8
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:16,579 DEBUG [org.apache.http.headers] http-outgoing-0 << Content-Length: 87
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:16,579 DEBUG [org.apache.http.headers] http-outgoing-0 << ETag: W/"57-VQznLCuku7d6W1KCnyaunGsfxGg"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:16,579 DEBUG [org.apache.http.headers] http-outgoing-0 << Date: Wed, 25 Apr 2018 12:21:16 GMT
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:16,579 DEBUG [org.apache.http.headers] http-outgoing-0 << Connection: keep-alive
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:16,579 DEBUG [org.apache.http.impl.execchain.MainClientExec] Connection can be kept alive indefinitely
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:16,580 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection [id: 0][route: {}->http://localhost:4723] can be kept alive indefinitely
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:16,581 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection released: [id: 0][route: {}->http://localhost:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[main] 17:51:16,583 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: {value=com.cleartrip.android:id/switcher_image, using=id}] Result: id: 2
+[main] 17:51:16,584 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing isElementDisplayed element: By.id: com.cleartrip.android:id/switcher_image parameters: {"id":"2"}
+[Forwarding isElementDisplayed on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:16,588 DEBUG [org.apache.http.client.protocol.RequestAddCookies] CookieSpec selected: default
+[Forwarding isElementDisplayed on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:16,588 DEBUG [org.apache.http.client.protocol.RequestAuthCache] Auth cache not set in the context
+[Forwarding isElementDisplayed on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:16,589 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection request: [route: {}->http://localhost:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding isElementDisplayed on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:16,589 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection leased: [id: 0][route: {}->http://localhost:4723][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding isElementDisplayed on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:16,590 DEBUG [org.apache.http.impl.execchain.MainClientExec] Stale connection check
+[Forwarding isElementDisplayed on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:16,591 DEBUG [org.apache.http.wire] http-outgoing-0 << "[read] I/O error: Read timed out"
+[Forwarding isElementDisplayed on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:16,591 DEBUG [org.apache.http.impl.conn.DefaultManagedHttpClientConnection] http-outgoing-0: set socket timeout to 10800000
+[Forwarding isElementDisplayed on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:16,591 DEBUG [org.apache.http.impl.execchain.MainClientExec] Executing request GET /wd/hub/session/9fb294f8-9595-49c2-8df6-584fdad9f90b/element/2/displayed HTTP/1.1
+[Forwarding isElementDisplayed on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:16,591 DEBUG [org.apache.http.impl.execchain.MainClientExec] Target auth state: UNCHALLENGED
+[Forwarding isElementDisplayed on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:16,591 DEBUG [org.apache.http.impl.execchain.MainClientExec] Proxy auth state: UNCHALLENGED
+[Forwarding isElementDisplayed on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:16,592 DEBUG [org.apache.http.headers] http-outgoing-0 >> GET /wd/hub/session/9fb294f8-9595-49c2-8df6-584fdad9f90b/element/2/displayed HTTP/1.1
+[Forwarding isElementDisplayed on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:16,592 DEBUG [org.apache.http.headers] http-outgoing-0 >> Cache-Control: no-cache
+[Forwarding isElementDisplayed on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:16,592 DEBUG [org.apache.http.headers] http-outgoing-0 >> Host: localhost:4723
+[Forwarding isElementDisplayed on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:16,593 DEBUG [org.apache.http.headers] http-outgoing-0 >> Connection: Keep-Alive
+[Forwarding isElementDisplayed on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:16,593 DEBUG [org.apache.http.headers] http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_161)
+[Forwarding isElementDisplayed on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:16,593 DEBUG [org.apache.http.headers] http-outgoing-0 >> Accept-Encoding: gzip,deflate
+[Forwarding isElementDisplayed on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:16,593 DEBUG [org.apache.http.wire] http-outgoing-0 >> "GET /wd/hub/session/9fb294f8-9595-49c2-8df6-584fdad9f90b/element/2/displayed HTTP/1.1[\r][\n]"
+[Forwarding isElementDisplayed on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:16,593 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Cache-Control: no-cache[\r][\n]"
+[Forwarding isElementDisplayed on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:16,594 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Host: localhost:4723[\r][\n]"
+[Forwarding isElementDisplayed on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:16,594 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+[Forwarding isElementDisplayed on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:16,594 DEBUG [org.apache.http.wire] http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_161)[\r][\n]"
+[Forwarding isElementDisplayed on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:16,594 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[Forwarding isElementDisplayed on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:16,594 DEBUG [org.apache.http.wire] http-outgoing-0 >> "[\r][\n]"
+[Forwarding isElementDisplayed on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:18,099 DEBUG [org.apache.http.wire] http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+[Forwarding isElementDisplayed on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:18,100 DEBUG [org.apache.http.wire] http-outgoing-0 << "X-Powered-By: Express[\r][\n]"
+[Forwarding isElementDisplayed on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:18,100 DEBUG [org.apache.http.wire] http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+[Forwarding isElementDisplayed on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:18,100 DEBUG [org.apache.http.wire] http-outgoing-0 << "Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE[\r][\n]"
+[Forwarding isElementDisplayed on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:18,100 DEBUG [org.apache.http.wire] http-outgoing-0 << "Access-Control-Allow-Headers: origin, content-type, accept[\r][\n]"
+[Forwarding isElementDisplayed on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:18,101 DEBUG [org.apache.http.wire] http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+[Forwarding isElementDisplayed on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:18,101 DEBUG [org.apache.http.wire] http-outgoing-0 << "Content-Length: 76[\r][\n]"
+[Forwarding isElementDisplayed on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:18,101 DEBUG [org.apache.http.wire] http-outgoing-0 << "ETag: W/"4c-A4sGkp/8dx58/VC6R4ycalNISxM"[\r][\n]"
+[Forwarding isElementDisplayed on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:18,101 DEBUG [org.apache.http.wire] http-outgoing-0 << "Date: Wed, 25 Apr 2018 12:21:18 GMT[\r][\n]"
+[Forwarding isElementDisplayed on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:18,101 DEBUG [org.apache.http.wire] http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+[Forwarding isElementDisplayed on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:18,101 DEBUG [org.apache.http.wire] http-outgoing-0 << "[\r][\n]"
+[Forwarding isElementDisplayed on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:18,101 DEBUG [org.apache.http.wire] http-outgoing-0 << "{"status":0,"value":true,"sessionId":"9fb294f8-9595-49c2-8df6-584fdad9f90b"}"
+[Forwarding isElementDisplayed on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:18,102 DEBUG [org.apache.http.headers] http-outgoing-0 << HTTP/1.1 200 OK
+[Forwarding isElementDisplayed on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:18,102 DEBUG [org.apache.http.headers] http-outgoing-0 << X-Powered-By: Express
+[Forwarding isElementDisplayed on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:18,102 DEBUG [org.apache.http.headers] http-outgoing-0 << Access-Control-Allow-Origin: *
+[Forwarding isElementDisplayed on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:18,102 DEBUG [org.apache.http.headers] http-outgoing-0 << Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE
+[Forwarding isElementDisplayed on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:18,102 DEBUG [org.apache.http.headers] http-outgoing-0 << Access-Control-Allow-Headers: origin, content-type, accept
+[Forwarding isElementDisplayed on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:18,102 DEBUG [org.apache.http.headers] http-outgoing-0 << Content-Type: application/json; charset=utf-8
+[Forwarding isElementDisplayed on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:18,102 DEBUG [org.apache.http.headers] http-outgoing-0 << Content-Length: 76
+[Forwarding isElementDisplayed on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:18,102 DEBUG [org.apache.http.headers] http-outgoing-0 << ETag: W/"4c-A4sGkp/8dx58/VC6R4ycalNISxM"
+[Forwarding isElementDisplayed on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:18,102 DEBUG [org.apache.http.headers] http-outgoing-0 << Date: Wed, 25 Apr 2018 12:21:18 GMT
+[Forwarding isElementDisplayed on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:18,102 DEBUG [org.apache.http.headers] http-outgoing-0 << Connection: keep-alive
+[Forwarding isElementDisplayed on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:18,103 DEBUG [org.apache.http.impl.execchain.MainClientExec] Connection can be kept alive indefinitely
+[Forwarding isElementDisplayed on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:18,104 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection [id: 0][route: {}->http://localhost:4723] can be kept alive indefinitely
+[Forwarding isElementDisplayed on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:18,104 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection released: [id: 0][route: {}->http://localhost:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[main] 17:51:18,105 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: isElementDisplayed[ param-1: By.id: com.cleartrip.android:id/switcher_image param-2: {"id":"2"}] Result: isElementDisplayed:true
+[main] 17:51:20,143 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement parameters: {"using":"id","value":"com.cleartrip.android:id/txt_from_city"}
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:20,146 DEBUG [org.apache.http.client.protocol.RequestAddCookies] CookieSpec selected: default
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:20,146 DEBUG [org.apache.http.client.protocol.RequestAuthCache] Auth cache not set in the context
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:20,146 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection request: [route: {}->http://localhost:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:20,148 DEBUG [org.apache.http.wire] http-outgoing-0 << "[read] I/O error: Read timed out"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:20,149 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection leased: [id: 0][route: {}->http://localhost:4723][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:20,149 DEBUG [org.apache.http.impl.execchain.MainClientExec] Stale connection check
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:20,150 DEBUG [org.apache.http.wire] http-outgoing-0 << "[read] I/O error: Read timed out"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:20,150 DEBUG [org.apache.http.impl.conn.DefaultManagedHttpClientConnection] http-outgoing-0: set socket timeout to 10800000
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:20,150 DEBUG [org.apache.http.impl.execchain.MainClientExec] Executing request POST /wd/hub/session/9fb294f8-9595-49c2-8df6-584fdad9f90b/element HTTP/1.1
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:20,150 DEBUG [org.apache.http.impl.execchain.MainClientExec] Target auth state: UNCHALLENGED
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:20,150 DEBUG [org.apache.http.impl.execchain.MainClientExec] Proxy auth state: UNCHALLENGED
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:20,150 DEBUG [org.apache.http.headers] http-outgoing-0 >> POST /wd/hub/session/9fb294f8-9595-49c2-8df6-584fdad9f90b/element HTTP/1.1
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:20,150 DEBUG [org.apache.http.headers] http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:20,151 DEBUG [org.apache.http.headers] http-outgoing-0 >> Content-Length: 63
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:20,151 DEBUG [org.apache.http.headers] http-outgoing-0 >> Host: localhost:4723
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:20,151 DEBUG [org.apache.http.headers] http-outgoing-0 >> Connection: Keep-Alive
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:20,151 DEBUG [org.apache.http.headers] http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_161)
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:20,151 DEBUG [org.apache.http.headers] http-outgoing-0 >> Accept-Encoding: gzip,deflate
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:20,151 DEBUG [org.apache.http.wire] http-outgoing-0 >> "POST /wd/hub/session/9fb294f8-9595-49c2-8df6-584fdad9f90b/element HTTP/1.1[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:20,151 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:20,151 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Content-Length: 63[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:20,152 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Host: localhost:4723[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:20,152 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:20,152 DEBUG [org.apache.http.wire] http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_161)[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:20,152 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:20,152 DEBUG [org.apache.http.wire] http-outgoing-0 >> "[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:20,152 DEBUG [org.apache.http.wire] http-outgoing-0 >> "{"value":"com.cleartrip.android:id/txt_from_city","using":"id"}"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:26,708 DEBUG [org.apache.http.wire] http-outgoing-0 << "HTTP/1.1 500 Internal Server Error[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:26,708 DEBUG [org.apache.http.wire] http-outgoing-0 << "X-Powered-By: Express[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:26,708 DEBUG [org.apache.http.wire] http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:26,708 DEBUG [org.apache.http.wire] http-outgoing-0 << "Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:26,708 DEBUG [org.apache.http.wire] http-outgoing-0 << "Access-Control-Allow-Headers: origin, content-type, accept[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:26,708 DEBUG [org.apache.http.wire] http-outgoing-0 << "Vary: X-HTTP-Method-Override[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:26,708 DEBUG [org.apache.http.wire] http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:26,708 DEBUG [org.apache.http.wire] http-outgoing-0 << "Content-Length: 164[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:26,708 DEBUG [org.apache.http.wire] http-outgoing-0 << "ETag: W/"a4-/ofV0zjjlPjr4CCTcQqnZMi1xE4"[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:26,708 DEBUG [org.apache.http.wire] http-outgoing-0 << "Date: Wed, 25 Apr 2018 12:21:26 GMT[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:26,708 DEBUG [org.apache.http.wire] http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:26,708 DEBUG [org.apache.http.wire] http-outgoing-0 << "[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:26,708 DEBUG [org.apache.http.wire] http-outgoing-0 << "{"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"9fb294f8-9595-49c2-8df6-584fdad9f90b"}"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:26,708 DEBUG [org.apache.http.headers] http-outgoing-0 << HTTP/1.1 500 Internal Server Error
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:26,708 DEBUG [org.apache.http.headers] http-outgoing-0 << X-Powered-By: Express
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:26,708 DEBUG [org.apache.http.headers] http-outgoing-0 << Access-Control-Allow-Origin: *
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:26,708 DEBUG [org.apache.http.headers] http-outgoing-0 << Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:26,709 DEBUG [org.apache.http.headers] http-outgoing-0 << Access-Control-Allow-Headers: origin, content-type, accept
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:26,709 DEBUG [org.apache.http.headers] http-outgoing-0 << Vary: X-HTTP-Method-Override
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:26,709 DEBUG [org.apache.http.headers] http-outgoing-0 << Content-Type: application/json; charset=utf-8
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:26,709 DEBUG [org.apache.http.headers] http-outgoing-0 << Content-Length: 164
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:26,709 DEBUG [org.apache.http.headers] http-outgoing-0 << ETag: W/"a4-/ofV0zjjlPjr4CCTcQqnZMi1xE4"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:26,709 DEBUG [org.apache.http.headers] http-outgoing-0 << Date: Wed, 25 Apr 2018 12:21:26 GMT
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:26,709 DEBUG [org.apache.http.headers] http-outgoing-0 << Connection: keep-alive
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:26,709 DEBUG [org.apache.http.impl.execchain.MainClientExec] Connection can be kept alive indefinitely
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:26,709 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection [id: 0][route: {}->http://localhost:4723] can be kept alive indefinitely
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:26,709 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection released: [id: 0][route: {}->http://localhost:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[main] 17:51:26,720 ERROR [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: {value=com.cleartrip.android:id/txt_from_city, using=id}] Result: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 6.57 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'ICPL12782', ip: '192.168.81.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{appPackage=com.cleartrip.android, deviceScreenSize=720x1280, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=9cb99039, platform=LINUX, deviceUDID=9cb99039, appActivity=com.cleartrip.android.common.activities.CleartripHomeActivity, browser_name=, desired={appPackage=com.cleartrip.android, appActivity=com.cleartrip.android.common.activities.CleartripHomeActivity, browser_name=, driverClass=io.appium.java_client.android.AndroidDriver, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, platformName=Android, deviceName=9cb99039, cssSelectorsEnabled=true}, driverClass=io.appium.java_client.android.AndroidDriver, platformVersion=5.1.1, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, deviceModel=A37f, platformName=Android, deviceManufacturer=OPPO, cssSelectorsEnabled=true}]
+Session ID: 9fb294f8-9595-49c2-8df6-584fdad9f90b
+*** Element info: {Using=id, value=com.cleartrip.android:id/txt_from_city}
+[main] 17:51:27,722 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement parameters: {"using":"id","value":"com.cleartrip.android:id/txt_from_city"}
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:27,725 DEBUG [org.apache.http.client.protocol.RequestAddCookies] CookieSpec selected: default
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:27,726 DEBUG [org.apache.http.client.protocol.RequestAuthCache] Auth cache not set in the context
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:27,726 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection request: [route: {}->http://localhost:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:27,726 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection leased: [id: 0][route: {}->http://localhost:4723][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:27,727 DEBUG [org.apache.http.impl.execchain.MainClientExec] Stale connection check
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:27,728 DEBUG [org.apache.http.wire] http-outgoing-0 << "[read] I/O error: Read timed out"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:27,728 DEBUG [org.apache.http.impl.conn.DefaultManagedHttpClientConnection] http-outgoing-0: set socket timeout to 10800000
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:27,728 DEBUG [org.apache.http.impl.execchain.MainClientExec] Executing request POST /wd/hub/session/9fb294f8-9595-49c2-8df6-584fdad9f90b/element HTTP/1.1
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:27,729 DEBUG [org.apache.http.impl.execchain.MainClientExec] Target auth state: UNCHALLENGED
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:27,729 DEBUG [org.apache.http.impl.execchain.MainClientExec] Proxy auth state: UNCHALLENGED
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:27,729 DEBUG [org.apache.http.headers] http-outgoing-0 >> POST /wd/hub/session/9fb294f8-9595-49c2-8df6-584fdad9f90b/element HTTP/1.1
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:27,729 DEBUG [org.apache.http.headers] http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:27,729 DEBUG [org.apache.http.headers] http-outgoing-0 >> Content-Length: 63
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:27,730 DEBUG [org.apache.http.headers] http-outgoing-0 >> Host: localhost:4723
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:27,730 DEBUG [org.apache.http.headers] http-outgoing-0 >> Connection: Keep-Alive
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:27,730 DEBUG [org.apache.http.headers] http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_161)
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:27,730 DEBUG [org.apache.http.headers] http-outgoing-0 >> Accept-Encoding: gzip,deflate
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:27,730 DEBUG [org.apache.http.wire] http-outgoing-0 >> "POST /wd/hub/session/9fb294f8-9595-49c2-8df6-584fdad9f90b/element HTTP/1.1[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:27,730 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:27,731 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Content-Length: 63[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:27,731 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Host: localhost:4723[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:27,731 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:27,731 DEBUG [org.apache.http.wire] http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_161)[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:27,731 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:27,731 DEBUG [org.apache.http.wire] http-outgoing-0 >> "[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:27,731 DEBUG [org.apache.http.wire] http-outgoing-0 >> "{"value":"com.cleartrip.android:id/txt_from_city","using":"id"}"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:30,173 DEBUG [org.apache.http.wire] http-outgoing-0 << "HTTP/1.1 500 Internal Server Error[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:30,173 DEBUG [org.apache.http.wire] http-outgoing-0 << "X-Powered-By: Express[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:30,174 DEBUG [org.apache.http.wire] http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:30,174 DEBUG [org.apache.http.wire] http-outgoing-0 << "Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:30,174 DEBUG [org.apache.http.wire] http-outgoing-0 << "Access-Control-Allow-Headers: origin, content-type, accept[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:30,174 DEBUG [org.apache.http.wire] http-outgoing-0 << "Vary: X-HTTP-Method-Override[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:30,174 DEBUG [org.apache.http.wire] http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:30,174 DEBUG [org.apache.http.wire] http-outgoing-0 << "Content-Length: 164[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:30,174 DEBUG [org.apache.http.wire] http-outgoing-0 << "ETag: W/"a4-/ofV0zjjlPjr4CCTcQqnZMi1xE4"[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:30,174 DEBUG [org.apache.http.wire] http-outgoing-0 << "Date: Wed, 25 Apr 2018 12:21:30 GMT[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:30,175 DEBUG [org.apache.http.wire] http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:30,175 DEBUG [org.apache.http.wire] http-outgoing-0 << "[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:30,175 DEBUG [org.apache.http.wire] http-outgoing-0 << "{"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"9fb294f8-9595-49c2-8df6-584fdad9f90b"}"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:30,175 DEBUG [org.apache.http.headers] http-outgoing-0 << HTTP/1.1 500 Internal Server Error
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:30,175 DEBUG [org.apache.http.headers] http-outgoing-0 << X-Powered-By: Express
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:30,175 DEBUG [org.apache.http.headers] http-outgoing-0 << Access-Control-Allow-Origin: *
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:30,175 DEBUG [org.apache.http.headers] http-outgoing-0 << Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:30,176 DEBUG [org.apache.http.headers] http-outgoing-0 << Access-Control-Allow-Headers: origin, content-type, accept
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:30,176 DEBUG [org.apache.http.headers] http-outgoing-0 << Vary: X-HTTP-Method-Override
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:30,176 DEBUG [org.apache.http.headers] http-outgoing-0 << Content-Type: application/json; charset=utf-8
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:30,176 DEBUG [org.apache.http.headers] http-outgoing-0 << Content-Length: 164
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:30,176 DEBUG [org.apache.http.headers] http-outgoing-0 << ETag: W/"a4-/ofV0zjjlPjr4CCTcQqnZMi1xE4"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:30,176 DEBUG [org.apache.http.headers] http-outgoing-0 << Date: Wed, 25 Apr 2018 12:21:30 GMT
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:30,176 DEBUG [org.apache.http.headers] http-outgoing-0 << Connection: keep-alive
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:30,176 DEBUG [org.apache.http.impl.execchain.MainClientExec] Connection can be kept alive indefinitely
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:30,177 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection [id: 0][route: {}->http://localhost:4723] can be kept alive indefinitely
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:30,177 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection released: [id: 0][route: {}->http://localhost:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[main] 17:51:30,181 ERROR [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: {value=com.cleartrip.android:id/txt_from_city, using=id}] Result: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.46 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'ICPL12782', ip: '192.168.81.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{appPackage=com.cleartrip.android, deviceScreenSize=720x1280, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=9cb99039, platform=LINUX, deviceUDID=9cb99039, appActivity=com.cleartrip.android.common.activities.CleartripHomeActivity, browser_name=, desired={appPackage=com.cleartrip.android, appActivity=com.cleartrip.android.common.activities.CleartripHomeActivity, browser_name=, driverClass=io.appium.java_client.android.AndroidDriver, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, platformName=Android, deviceName=9cb99039, cssSelectorsEnabled=true}, driverClass=io.appium.java_client.android.AndroidDriver, platformVersion=5.1.1, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, deviceModel=A37f, platformName=Android, deviceManufacturer=OPPO, cssSelectorsEnabled=true}]
+Session ID: 9fb294f8-9595-49c2-8df6-584fdad9f90b
+*** Element info: {Using=id, value=com.cleartrip.android:id/txt_from_city}
+[main] 17:51:31,182 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement parameters: {"using":"id","value":"com.cleartrip.android:id/txt_from_city"}
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:31,183 DEBUG [org.apache.http.client.protocol.RequestAddCookies] CookieSpec selected: default
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:31,183 DEBUG [org.apache.http.client.protocol.RequestAuthCache] Auth cache not set in the context
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:31,183 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection request: [route: {}->http://localhost:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:31,183 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection leased: [id: 0][route: {}->http://localhost:4723][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:31,183 DEBUG [org.apache.http.impl.execchain.MainClientExec] Stale connection check
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:31,184 DEBUG [org.apache.http.wire] http-outgoing-0 << "[read] I/O error: Read timed out"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:31,184 DEBUG [org.apache.http.impl.conn.DefaultManagedHttpClientConnection] http-outgoing-0: set socket timeout to 10800000
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:31,184 DEBUG [org.apache.http.impl.execchain.MainClientExec] Executing request POST /wd/hub/session/9fb294f8-9595-49c2-8df6-584fdad9f90b/element HTTP/1.1
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:31,184 DEBUG [org.apache.http.impl.execchain.MainClientExec] Target auth state: UNCHALLENGED
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:31,184 DEBUG [org.apache.http.impl.execchain.MainClientExec] Proxy auth state: UNCHALLENGED
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:31,184 DEBUG [org.apache.http.headers] http-outgoing-0 >> POST /wd/hub/session/9fb294f8-9595-49c2-8df6-584fdad9f90b/element HTTP/1.1
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:31,184 DEBUG [org.apache.http.headers] http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:31,184 DEBUG [org.apache.http.headers] http-outgoing-0 >> Content-Length: 63
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:31,184 DEBUG [org.apache.http.headers] http-outgoing-0 >> Host: localhost:4723
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:31,184 DEBUG [org.apache.http.headers] http-outgoing-0 >> Connection: Keep-Alive
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:31,184 DEBUG [org.apache.http.headers] http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_161)
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:31,184 DEBUG [org.apache.http.headers] http-outgoing-0 >> Accept-Encoding: gzip,deflate
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:31,184 DEBUG [org.apache.http.wire] http-outgoing-0 >> "POST /wd/hub/session/9fb294f8-9595-49c2-8df6-584fdad9f90b/element HTTP/1.1[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:31,184 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:31,184 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Content-Length: 63[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:31,184 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Host: localhost:4723[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:31,184 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:31,184 DEBUG [org.apache.http.wire] http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_161)[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:31,184 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:31,184 DEBUG [org.apache.http.wire] http-outgoing-0 >> "[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:31,184 DEBUG [org.apache.http.wire] http-outgoing-0 >> "{"value":"com.cleartrip.android:id/txt_from_city","using":"id"}"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:31,763 DEBUG [org.apache.http.wire] http-outgoing-0 << "HTTP/1.1 500 Internal Server Error[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:31,763 DEBUG [org.apache.http.wire] http-outgoing-0 << "X-Powered-By: Express[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:31,763 DEBUG [org.apache.http.wire] http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:31,763 DEBUG [org.apache.http.wire] http-outgoing-0 << "Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:31,763 DEBUG [org.apache.http.wire] http-outgoing-0 << "Access-Control-Allow-Headers: origin, content-type, accept[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:31,763 DEBUG [org.apache.http.wire] http-outgoing-0 << "Vary: X-HTTP-Method-Override[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:31,763 DEBUG [org.apache.http.wire] http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:31,763 DEBUG [org.apache.http.wire] http-outgoing-0 << "Content-Length: 164[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:31,763 DEBUG [org.apache.http.wire] http-outgoing-0 << "ETag: W/"a4-/ofV0zjjlPjr4CCTcQqnZMi1xE4"[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:31,763 DEBUG [org.apache.http.wire] http-outgoing-0 << "Date: Wed, 25 Apr 2018 12:21:31 GMT[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:31,763 DEBUG [org.apache.http.wire] http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:31,763 DEBUG [org.apache.http.wire] http-outgoing-0 << "[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:31,763 DEBUG [org.apache.http.wire] http-outgoing-0 << "{"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"9fb294f8-9595-49c2-8df6-584fdad9f90b"}"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:31,764 DEBUG [org.apache.http.headers] http-outgoing-0 << HTTP/1.1 500 Internal Server Error
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:31,764 DEBUG [org.apache.http.headers] http-outgoing-0 << X-Powered-By: Express
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:31,764 DEBUG [org.apache.http.headers] http-outgoing-0 << Access-Control-Allow-Origin: *
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:31,764 DEBUG [org.apache.http.headers] http-outgoing-0 << Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:31,764 DEBUG [org.apache.http.headers] http-outgoing-0 << Access-Control-Allow-Headers: origin, content-type, accept
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:31,764 DEBUG [org.apache.http.headers] http-outgoing-0 << Vary: X-HTTP-Method-Override
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:31,764 DEBUG [org.apache.http.headers] http-outgoing-0 << Content-Type: application/json; charset=utf-8
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:31,764 DEBUG [org.apache.http.headers] http-outgoing-0 << Content-Length: 164
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:31,764 DEBUG [org.apache.http.headers] http-outgoing-0 << ETag: W/"a4-/ofV0zjjlPjr4CCTcQqnZMi1xE4"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:31,764 DEBUG [org.apache.http.headers] http-outgoing-0 << Date: Wed, 25 Apr 2018 12:21:31 GMT
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:31,764 DEBUG [org.apache.http.headers] http-outgoing-0 << Connection: keep-alive
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:31,764 DEBUG [org.apache.http.impl.execchain.MainClientExec] Connection can be kept alive indefinitely
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:31,764 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection [id: 0][route: {}->http://localhost:4723] can be kept alive indefinitely
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:31,764 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection released: [id: 0][route: {}->http://localhost:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[main] 17:51:31,766 ERROR [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: {value=com.cleartrip.android:id/txt_from_city, using=id}] Result: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 583 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'ICPL12782', ip: '192.168.81.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{appPackage=com.cleartrip.android, deviceScreenSize=720x1280, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=9cb99039, platform=LINUX, deviceUDID=9cb99039, appActivity=com.cleartrip.android.common.activities.CleartripHomeActivity, browser_name=, desired={appPackage=com.cleartrip.android, appActivity=com.cleartrip.android.common.activities.CleartripHomeActivity, browser_name=, driverClass=io.appium.java_client.android.AndroidDriver, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, platformName=Android, deviceName=9cb99039, cssSelectorsEnabled=true}, driverClass=io.appium.java_client.android.AndroidDriver, platformVersion=5.1.1, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, deviceModel=A37f, platformName=Android, deviceManufacturer=OPPO, cssSelectorsEnabled=true}]
+Session ID: 9fb294f8-9595-49c2-8df6-584fdad9f90b
+*** Element info: {Using=id, value=com.cleartrip.android:id/txt_from_city}
+[main] 17:51:32,767 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement parameters: {"using":"id","value":"com.cleartrip.android:id/txt_from_city"}
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:32,770 DEBUG [org.apache.http.client.protocol.RequestAddCookies] CookieSpec selected: default
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:32,770 DEBUG [org.apache.http.client.protocol.RequestAuthCache] Auth cache not set in the context
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:32,770 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection request: [route: {}->http://localhost:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:32,771 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection leased: [id: 0][route: {}->http://localhost:4723][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:32,771 DEBUG [org.apache.http.impl.execchain.MainClientExec] Stale connection check
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:32,772 DEBUG [org.apache.http.wire] http-outgoing-0 << "[read] I/O error: Read timed out"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:32,773 DEBUG [org.apache.http.impl.conn.DefaultManagedHttpClientConnection] http-outgoing-0: set socket timeout to 10800000
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:32,773 DEBUG [org.apache.http.impl.execchain.MainClientExec] Executing request POST /wd/hub/session/9fb294f8-9595-49c2-8df6-584fdad9f90b/element HTTP/1.1
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:32,773 DEBUG [org.apache.http.impl.execchain.MainClientExec] Target auth state: UNCHALLENGED
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:32,773 DEBUG [org.apache.http.impl.execchain.MainClientExec] Proxy auth state: UNCHALLENGED
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:32,773 DEBUG [org.apache.http.headers] http-outgoing-0 >> POST /wd/hub/session/9fb294f8-9595-49c2-8df6-584fdad9f90b/element HTTP/1.1
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:32,774 DEBUG [org.apache.http.headers] http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:32,774 DEBUG [org.apache.http.headers] http-outgoing-0 >> Content-Length: 63
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:32,774 DEBUG [org.apache.http.headers] http-outgoing-0 >> Host: localhost:4723
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:32,774 DEBUG [org.apache.http.headers] http-outgoing-0 >> Connection: Keep-Alive
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:32,774 DEBUG [org.apache.http.headers] http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_161)
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:32,774 DEBUG [org.apache.http.headers] http-outgoing-0 >> Accept-Encoding: gzip,deflate
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:32,774 DEBUG [org.apache.http.wire] http-outgoing-0 >> "POST /wd/hub/session/9fb294f8-9595-49c2-8df6-584fdad9f90b/element HTTP/1.1[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:32,774 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:32,774 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Content-Length: 63[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:32,774 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Host: localhost:4723[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:32,774 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:32,774 DEBUG [org.apache.http.wire] http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_161)[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:32,775 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:32,775 DEBUG [org.apache.http.wire] http-outgoing-0 >> "[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:32,775 DEBUG [org.apache.http.wire] http-outgoing-0 >> "{"value":"com.cleartrip.android:id/txt_from_city","using":"id"}"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:34,249 DEBUG [org.apache.http.wire] http-outgoing-0 << "HTTP/1.1 500 Internal Server Error[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:34,249 DEBUG [org.apache.http.wire] http-outgoing-0 << "X-Powered-By: Express[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:34,249 DEBUG [org.apache.http.wire] http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:34,249 DEBUG [org.apache.http.wire] http-outgoing-0 << "Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:34,249 DEBUG [org.apache.http.wire] http-outgoing-0 << "Access-Control-Allow-Headers: origin, content-type, accept[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:34,249 DEBUG [org.apache.http.wire] http-outgoing-0 << "Vary: X-HTTP-Method-Override[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:34,249 DEBUG [org.apache.http.wire] http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:34,249 DEBUG [org.apache.http.wire] http-outgoing-0 << "Content-Length: 164[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:34,249 DEBUG [org.apache.http.wire] http-outgoing-0 << "ETag: W/"a4-/ofV0zjjlPjr4CCTcQqnZMi1xE4"[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:34,249 DEBUG [org.apache.http.wire] http-outgoing-0 << "Date: Wed, 25 Apr 2018 12:21:34 GMT[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:34,249 DEBUG [org.apache.http.wire] http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:34,249 DEBUG [org.apache.http.wire] http-outgoing-0 << "[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:34,249 DEBUG [org.apache.http.wire] http-outgoing-0 << "{"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"9fb294f8-9595-49c2-8df6-584fdad9f90b"}"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:34,250 DEBUG [org.apache.http.headers] http-outgoing-0 << HTTP/1.1 500 Internal Server Error
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:34,250 DEBUG [org.apache.http.headers] http-outgoing-0 << X-Powered-By: Express
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:34,250 DEBUG [org.apache.http.headers] http-outgoing-0 << Access-Control-Allow-Origin: *
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:34,250 DEBUG [org.apache.http.headers] http-outgoing-0 << Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:34,250 DEBUG [org.apache.http.headers] http-outgoing-0 << Access-Control-Allow-Headers: origin, content-type, accept
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:34,250 DEBUG [org.apache.http.headers] http-outgoing-0 << Vary: X-HTTP-Method-Override
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:34,250 DEBUG [org.apache.http.headers] http-outgoing-0 << Content-Type: application/json; charset=utf-8
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:34,250 DEBUG [org.apache.http.headers] http-outgoing-0 << Content-Length: 164
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:34,250 DEBUG [org.apache.http.headers] http-outgoing-0 << ETag: W/"a4-/ofV0zjjlPjr4CCTcQqnZMi1xE4"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:34,250 DEBUG [org.apache.http.headers] http-outgoing-0 << Date: Wed, 25 Apr 2018 12:21:34 GMT
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:34,250 DEBUG [org.apache.http.headers] http-outgoing-0 << Connection: keep-alive
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:34,250 DEBUG [org.apache.http.impl.execchain.MainClientExec] Connection can be kept alive indefinitely
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:34,251 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection [id: 0][route: {}->http://localhost:4723] can be kept alive indefinitely
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:34,251 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection released: [id: 0][route: {}->http://localhost:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[main] 17:51:34,253 ERROR [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: {value=com.cleartrip.android:id/txt_from_city, using=id}] Result: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.49 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'ICPL12782', ip: '192.168.81.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{appPackage=com.cleartrip.android, deviceScreenSize=720x1280, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=9cb99039, platform=LINUX, deviceUDID=9cb99039, appActivity=com.cleartrip.android.common.activities.CleartripHomeActivity, browser_name=, desired={appPackage=com.cleartrip.android, appActivity=com.cleartrip.android.common.activities.CleartripHomeActivity, browser_name=, driverClass=io.appium.java_client.android.AndroidDriver, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, platformName=Android, deviceName=9cb99039, cssSelectorsEnabled=true}, driverClass=io.appium.java_client.android.AndroidDriver, platformVersion=5.1.1, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, deviceModel=A37f, platformName=Android, deviceManufacturer=OPPO, cssSelectorsEnabled=true}]
+Session ID: 9fb294f8-9595-49c2-8df6-584fdad9f90b
+*** Element info: {Using=id, value=com.cleartrip.android:id/txt_from_city}
+[main] 17:51:35,254 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement parameters: {"using":"id","value":"com.cleartrip.android:id/txt_from_city"}
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:35,258 DEBUG [org.apache.http.client.protocol.RequestAddCookies] CookieSpec selected: default
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:35,259 DEBUG [org.apache.http.client.protocol.RequestAuthCache] Auth cache not set in the context
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:35,259 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection request: [route: {}->http://localhost:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:35,259 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection leased: [id: 0][route: {}->http://localhost:4723][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:35,259 DEBUG [org.apache.http.impl.execchain.MainClientExec] Stale connection check
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:35,261 DEBUG [org.apache.http.wire] http-outgoing-0 << "[read] I/O error: Read timed out"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:35,261 DEBUG [org.apache.http.impl.conn.DefaultManagedHttpClientConnection] http-outgoing-0: set socket timeout to 10800000
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:35,261 DEBUG [org.apache.http.impl.execchain.MainClientExec] Executing request POST /wd/hub/session/9fb294f8-9595-49c2-8df6-584fdad9f90b/element HTTP/1.1
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:35,262 DEBUG [org.apache.http.impl.execchain.MainClientExec] Target auth state: UNCHALLENGED
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:35,262 DEBUG [org.apache.http.impl.execchain.MainClientExec] Proxy auth state: UNCHALLENGED
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:35,263 DEBUG [org.apache.http.headers] http-outgoing-0 >> POST /wd/hub/session/9fb294f8-9595-49c2-8df6-584fdad9f90b/element HTTP/1.1
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:35,263 DEBUG [org.apache.http.headers] http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:35,263 DEBUG [org.apache.http.headers] http-outgoing-0 >> Content-Length: 63
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:35,263 DEBUG [org.apache.http.headers] http-outgoing-0 >> Host: localhost:4723
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:35,264 DEBUG [org.apache.http.headers] http-outgoing-0 >> Connection: Keep-Alive
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:35,264 DEBUG [org.apache.http.headers] http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_161)
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:35,264 DEBUG [org.apache.http.headers] http-outgoing-0 >> Accept-Encoding: gzip,deflate
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:35,265 DEBUG [org.apache.http.wire] http-outgoing-0 >> "POST /wd/hub/session/9fb294f8-9595-49c2-8df6-584fdad9f90b/element HTTP/1.1[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:35,265 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:35,265 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Content-Length: 63[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:35,265 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Host: localhost:4723[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:35,265 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:35,265 DEBUG [org.apache.http.wire] http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_161)[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:35,265 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:35,265 DEBUG [org.apache.http.wire] http-outgoing-0 >> "[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:35,265 DEBUG [org.apache.http.wire] http-outgoing-0 >> "{"value":"com.cleartrip.android:id/txt_from_city","using":"id"}"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:35,977 DEBUG [org.apache.http.wire] http-outgoing-0 << "HTTP/1.1 500 Internal Server Error[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:35,977 DEBUG [org.apache.http.wire] http-outgoing-0 << "X-Powered-By: Express[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:35,977 DEBUG [org.apache.http.wire] http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:35,977 DEBUG [org.apache.http.wire] http-outgoing-0 << "Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:35,977 DEBUG [org.apache.http.wire] http-outgoing-0 << "Access-Control-Allow-Headers: origin, content-type, accept[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:35,977 DEBUG [org.apache.http.wire] http-outgoing-0 << "Vary: X-HTTP-Method-Override[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:35,977 DEBUG [org.apache.http.wire] http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:35,977 DEBUG [org.apache.http.wire] http-outgoing-0 << "Content-Length: 164[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:35,977 DEBUG [org.apache.http.wire] http-outgoing-0 << "ETag: W/"a4-/ofV0zjjlPjr4CCTcQqnZMi1xE4"[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:35,977 DEBUG [org.apache.http.wire] http-outgoing-0 << "Date: Wed, 25 Apr 2018 12:21:35 GMT[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:35,977 DEBUG [org.apache.http.wire] http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:35,977 DEBUG [org.apache.http.wire] http-outgoing-0 << "[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:35,977 DEBUG [org.apache.http.wire] http-outgoing-0 << "{"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"9fb294f8-9595-49c2-8df6-584fdad9f90b"}"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:35,977 DEBUG [org.apache.http.headers] http-outgoing-0 << HTTP/1.1 500 Internal Server Error
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:35,977 DEBUG [org.apache.http.headers] http-outgoing-0 << X-Powered-By: Express
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:35,977 DEBUG [org.apache.http.headers] http-outgoing-0 << Access-Control-Allow-Origin: *
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:35,977 DEBUG [org.apache.http.headers] http-outgoing-0 << Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:35,977 DEBUG [org.apache.http.headers] http-outgoing-0 << Access-Control-Allow-Headers: origin, content-type, accept
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:35,978 DEBUG [org.apache.http.headers] http-outgoing-0 << Vary: X-HTTP-Method-Override
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:35,978 DEBUG [org.apache.http.headers] http-outgoing-0 << Content-Type: application/json; charset=utf-8
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:35,978 DEBUG [org.apache.http.headers] http-outgoing-0 << Content-Length: 164
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:35,978 DEBUG [org.apache.http.headers] http-outgoing-0 << ETag: W/"a4-/ofV0zjjlPjr4CCTcQqnZMi1xE4"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:35,978 DEBUG [org.apache.http.headers] http-outgoing-0 << Date: Wed, 25 Apr 2018 12:21:35 GMT
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:35,978 DEBUG [org.apache.http.headers] http-outgoing-0 << Connection: keep-alive
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:35,978 DEBUG [org.apache.http.impl.execchain.MainClientExec] Connection can be kept alive indefinitely
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:35,978 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection [id: 0][route: {}->http://localhost:4723] can be kept alive indefinitely
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:35,978 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection released: [id: 0][route: {}->http://localhost:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[main] 17:51:35,980 ERROR [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: {value=com.cleartrip.android:id/txt_from_city, using=id}] Result: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 724 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'ICPL12782', ip: '192.168.81.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{appPackage=com.cleartrip.android, deviceScreenSize=720x1280, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=9cb99039, platform=LINUX, deviceUDID=9cb99039, appActivity=com.cleartrip.android.common.activities.CleartripHomeActivity, browser_name=, desired={appPackage=com.cleartrip.android, appActivity=com.cleartrip.android.common.activities.CleartripHomeActivity, browser_name=, driverClass=io.appium.java_client.android.AndroidDriver, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, platformName=Android, deviceName=9cb99039, cssSelectorsEnabled=true}, driverClass=io.appium.java_client.android.AndroidDriver, platformVersion=5.1.1, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, deviceModel=A37f, platformName=Android, deviceManufacturer=OPPO, cssSelectorsEnabled=true}]
+Session ID: 9fb294f8-9595-49c2-8df6-584fdad9f90b
+*** Element info: {Using=id, value=com.cleartrip.android:id/txt_from_city}
+[main] 17:51:36,981 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement parameters: {"using":"id","value":"com.cleartrip.android:id/txt_from_city"}
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:36,984 DEBUG [org.apache.http.client.protocol.RequestAddCookies] CookieSpec selected: default
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:36,984 DEBUG [org.apache.http.client.protocol.RequestAuthCache] Auth cache not set in the context
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:36,984 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection request: [route: {}->http://localhost:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:36,984 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection leased: [id: 0][route: {}->http://localhost:4723][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:36,985 DEBUG [org.apache.http.impl.execchain.MainClientExec] Stale connection check
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:36,986 DEBUG [org.apache.http.wire] http-outgoing-0 << "[read] I/O error: Read timed out"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:36,986 DEBUG [org.apache.http.impl.conn.DefaultManagedHttpClientConnection] http-outgoing-0: set socket timeout to 10800000
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:36,986 DEBUG [org.apache.http.impl.execchain.MainClientExec] Executing request POST /wd/hub/session/9fb294f8-9595-49c2-8df6-584fdad9f90b/element HTTP/1.1
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:36,986 DEBUG [org.apache.http.impl.execchain.MainClientExec] Target auth state: UNCHALLENGED
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:36,986 DEBUG [org.apache.http.impl.execchain.MainClientExec] Proxy auth state: UNCHALLENGED
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:36,987 DEBUG [org.apache.http.headers] http-outgoing-0 >> POST /wd/hub/session/9fb294f8-9595-49c2-8df6-584fdad9f90b/element HTTP/1.1
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:36,987 DEBUG [org.apache.http.headers] http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:36,987 DEBUG [org.apache.http.headers] http-outgoing-0 >> Content-Length: 63
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:36,987 DEBUG [org.apache.http.headers] http-outgoing-0 >> Host: localhost:4723
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:36,987 DEBUG [org.apache.http.headers] http-outgoing-0 >> Connection: Keep-Alive
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:36,987 DEBUG [org.apache.http.headers] http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_161)
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:36,987 DEBUG [org.apache.http.headers] http-outgoing-0 >> Accept-Encoding: gzip,deflate
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:36,987 DEBUG [org.apache.http.wire] http-outgoing-0 >> "POST /wd/hub/session/9fb294f8-9595-49c2-8df6-584fdad9f90b/element HTTP/1.1[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:36,987 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:36,987 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Content-Length: 63[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:36,987 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Host: localhost:4723[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:36,987 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:36,987 DEBUG [org.apache.http.wire] http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_161)[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:36,987 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:36,987 DEBUG [org.apache.http.wire] http-outgoing-0 >> "[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:36,987 DEBUG [org.apache.http.wire] http-outgoing-0 >> "{"value":"com.cleartrip.android:id/txt_from_city","using":"id"}"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:38,293 DEBUG [org.apache.http.wire] http-outgoing-0 << "HTTP/1.1 500 Internal Server Error[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:38,294 DEBUG [org.apache.http.wire] http-outgoing-0 << "X-Powered-By: Express[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:38,294 DEBUG [org.apache.http.wire] http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:38,294 DEBUG [org.apache.http.wire] http-outgoing-0 << "Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:38,294 DEBUG [org.apache.http.wire] http-outgoing-0 << "Access-Control-Allow-Headers: origin, content-type, accept[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:38,294 DEBUG [org.apache.http.wire] http-outgoing-0 << "Vary: X-HTTP-Method-Override[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:38,294 DEBUG [org.apache.http.wire] http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:38,294 DEBUG [org.apache.http.wire] http-outgoing-0 << "Content-Length: 164[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:38,294 DEBUG [org.apache.http.wire] http-outgoing-0 << "ETag: W/"a4-/ofV0zjjlPjr4CCTcQqnZMi1xE4"[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:38,294 DEBUG [org.apache.http.wire] http-outgoing-0 << "Date: Wed, 25 Apr 2018 12:21:38 GMT[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:38,294 DEBUG [org.apache.http.wire] http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:38,294 DEBUG [org.apache.http.wire] http-outgoing-0 << "[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:38,294 DEBUG [org.apache.http.wire] http-outgoing-0 << "{"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"9fb294f8-9595-49c2-8df6-584fdad9f90b"}"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:38,294 DEBUG [org.apache.http.headers] http-outgoing-0 << HTTP/1.1 500 Internal Server Error
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:38,294 DEBUG [org.apache.http.headers] http-outgoing-0 << X-Powered-By: Express
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:38,294 DEBUG [org.apache.http.headers] http-outgoing-0 << Access-Control-Allow-Origin: *
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:38,294 DEBUG [org.apache.http.headers] http-outgoing-0 << Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:38,294 DEBUG [org.apache.http.headers] http-outgoing-0 << Access-Control-Allow-Headers: origin, content-type, accept
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:38,294 DEBUG [org.apache.http.headers] http-outgoing-0 << Vary: X-HTTP-Method-Override
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:38,294 DEBUG [org.apache.http.headers] http-outgoing-0 << Content-Type: application/json; charset=utf-8
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:38,294 DEBUG [org.apache.http.headers] http-outgoing-0 << Content-Length: 164
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:38,294 DEBUG [org.apache.http.headers] http-outgoing-0 << ETag: W/"a4-/ofV0zjjlPjr4CCTcQqnZMi1xE4"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:38,294 DEBUG [org.apache.http.headers] http-outgoing-0 << Date: Wed, 25 Apr 2018 12:21:38 GMT
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:38,294 DEBUG [org.apache.http.headers] http-outgoing-0 << Connection: keep-alive
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:38,294 DEBUG [org.apache.http.impl.execchain.MainClientExec] Connection can be kept alive indefinitely
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:38,294 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection [id: 0][route: {}->http://localhost:4723] can be kept alive indefinitely
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:38,294 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection released: [id: 0][route: {}->http://localhost:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[main] 17:51:38,296 ERROR [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: {value=com.cleartrip.android:id/txt_from_city, using=id}] Result: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.31 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'ICPL12782', ip: '192.168.81.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{appPackage=com.cleartrip.android, deviceScreenSize=720x1280, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=9cb99039, platform=LINUX, deviceUDID=9cb99039, appActivity=com.cleartrip.android.common.activities.CleartripHomeActivity, browser_name=, desired={appPackage=com.cleartrip.android, appActivity=com.cleartrip.android.common.activities.CleartripHomeActivity, browser_name=, driverClass=io.appium.java_client.android.AndroidDriver, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, platformName=Android, deviceName=9cb99039, cssSelectorsEnabled=true}, driverClass=io.appium.java_client.android.AndroidDriver, platformVersion=5.1.1, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, deviceModel=A37f, platformName=Android, deviceManufacturer=OPPO, cssSelectorsEnabled=true}]
+Session ID: 9fb294f8-9595-49c2-8df6-584fdad9f90b
+*** Element info: {Using=id, value=com.cleartrip.android:id/txt_from_city}
+[main] 17:51:39,296 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement parameters: {"using":"id","value":"com.cleartrip.android:id/txt_from_city"}
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:39,297 DEBUG [org.apache.http.client.protocol.RequestAddCookies] CookieSpec selected: default
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:39,297 DEBUG [org.apache.http.client.protocol.RequestAuthCache] Auth cache not set in the context
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:39,297 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection request: [route: {}->http://localhost:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:39,297 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection leased: [id: 0][route: {}->http://localhost:4723][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:39,297 DEBUG [org.apache.http.impl.execchain.MainClientExec] Stale connection check
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:39,298 DEBUG [org.apache.http.wire] http-outgoing-0 << "[read] I/O error: Read timed out"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:39,298 DEBUG [org.apache.http.impl.conn.DefaultManagedHttpClientConnection] http-outgoing-0: set socket timeout to 10800000
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:39,298 DEBUG [org.apache.http.impl.execchain.MainClientExec] Executing request POST /wd/hub/session/9fb294f8-9595-49c2-8df6-584fdad9f90b/element HTTP/1.1
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:39,298 DEBUG [org.apache.http.impl.execchain.MainClientExec] Target auth state: UNCHALLENGED
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:39,298 DEBUG [org.apache.http.impl.execchain.MainClientExec] Proxy auth state: UNCHALLENGED
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:39,298 DEBUG [org.apache.http.headers] http-outgoing-0 >> POST /wd/hub/session/9fb294f8-9595-49c2-8df6-584fdad9f90b/element HTTP/1.1
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:39,298 DEBUG [org.apache.http.headers] http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:39,298 DEBUG [org.apache.http.headers] http-outgoing-0 >> Content-Length: 63
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:39,298 DEBUG [org.apache.http.headers] http-outgoing-0 >> Host: localhost:4723
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:39,298 DEBUG [org.apache.http.headers] http-outgoing-0 >> Connection: Keep-Alive
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:39,298 DEBUG [org.apache.http.headers] http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_161)
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:39,298 DEBUG [org.apache.http.headers] http-outgoing-0 >> Accept-Encoding: gzip,deflate
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:39,298 DEBUG [org.apache.http.wire] http-outgoing-0 >> "POST /wd/hub/session/9fb294f8-9595-49c2-8df6-584fdad9f90b/element HTTP/1.1[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:39,298 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:39,298 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Content-Length: 63[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:39,298 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Host: localhost:4723[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:39,298 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:39,298 DEBUG [org.apache.http.wire] http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_161)[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:39,298 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:39,298 DEBUG [org.apache.http.wire] http-outgoing-0 >> "[\r][\n]"
+[Forwarding findElement on session 9fb294f8-9595-49c2-8df6-584fdad9f90b to remote] 17:51:39,298 DEBUG [org.apache.http.wire] http-outgoing-0 >> "{"value":"com.cleartrip.android:id/txt_from_city","using":"id"}"

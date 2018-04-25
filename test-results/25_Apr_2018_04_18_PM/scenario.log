@@ -1,0 +1,28 @@
+16:18:04 scenario.file.loc[Ljava.lang.String;@1ee807c6
+16:18:04 loading BDD file: scenarios/suite1.bdd
+16:18:04 total test found: 1
+16:18:05 
+
+Executing scenario: SampleTest - Sample Test Scenario
+16:18:05 pkg: com.qmetry.qaf.automation.step
+16:18:05 pkg: com.appium_kart
+16:18:05 Found duplicate step to load [] with [lower] prority then []
+16:18:05 Invoking Teststep: Given User switches to flights
+16:18:39 Completed Teststep: Given User switches to flights
+16:18:39 Invoking Teststep: When User click in from button
+16:18:42 Completed Teststep: When User click in from button
+16:18:42 Invoking Teststep: And User enter the source name
+16:19:07 Completed Teststep: And User enter the source name
+16:19:07 Invoking Teststep: And User selected the source name
+16:19:09 Completed Teststep: And User selected the source name
+16:19:09 Invoking Teststep: And User click on destination btn
+16:19:18 Completed Teststep: And User click on destination btn
+16:19:18 Invoking Teststep: And User entered the destination city
+16:19:46 Completed Teststep: And User entered the destination city
+16:19:46 Invoking Teststep: And User selected the destination city
+16:19:51 Completed Teststep: And User selected the destination city
+16:19:51 Invoking Teststep: And User click on search button
+16:20:01 Completed Teststep: And User click on search button
+16:20:01 Invoking Teststep: And User selecting flight
+16:20:06 Completed Teststep: And User selecting flight
+16:20:06 Competed scenario: SampleTest with status SUCESS

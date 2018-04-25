@@ -1,0 +1,2 @@
+switchflight.click = {\"locator\":\"id=com.cleartrip.android:id/switcher_image\",\"desc\":\"User switches from local to flightbooking\"}
+switchflight2.click = {\"locator\":\"id=com.cleartrip.android:id/original_travel_text\",\"desc\":\"User switches to flights\"}

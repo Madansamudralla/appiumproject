@@ -1,0 +1,204 @@
+{
+  "reports": [
+    {
+      "name": "QAS Demo",
+      "dir": "test-results/25_Apr_2018_12_32_PM/json",
+      "startTime": 1524659544337
+    },
+    {
+      "name": "appium_kart.scenarios.suite1.bdd",
+      "dir": "test-results/25_Apr_2018_05_57_PM/json",
+      "startTime": 1524659235035
+    },
+    {
+      "name": "appium_kart.scenarios.suite1.bdd",
+      "dir": "test-results/25_Apr_2018_05_54_PM/json",
+      "startTime": 1524659092666
+    },
+    {
+      "name": "appium_kart.scenarios.suite1.bdd",
+      "dir": "test-results/25_Apr_2018_05_50_PM/json",
+      "startTime": 1524658853025
+    },
+    {
+      "name": "appium_kart.scenarios.suite1.bdd",
+      "dir": "test-results/25_Apr_2018_05_47_PM/json",
+      "startTime": 1524658624566
+    },
+    {
+      "name": "QAS Demo",
+      "dir": "test-results/25_Apr_2018_11_22_AM/json",
+      "startTime": 1524655369934
+    },
+    {
+      "name": "QAS Demo",
+      "dir": "test-results/25_Apr_2018_11_06_AM/json",
+      "startTime": 1524654406219
+    },
+    {
+      "name": "QAS Demo",
+      "dir": "test-results/25_Apr_2018_11_01_AM/json",
+      "startTime": 1524654099791
+    },
+    {
+      "name": "appium_kart.scenarios.suite1.bdd",
+      "dir": "test-results/25_Apr_2018_04_27_PM/json",
+      "startTime": 1524653827358
+    },
+    {
+      "name": "appium_kart.scenarios.suite1.bdd",
+      "dir": "test-results/25_Apr_2018_04_18_PM/json",
+      "startTime": 1524653284931
+    },
+    {
+      "name": "appium_kart.scenarios.suite1.bdd",
+      "dir": "test-results/25_Apr_2018_03_58_PM/json",
+      "startTime": 1524652102946
+    },
+    {
+      "name": "appium_kart.scenarios.suite1.bdd",
+      "dir": "test-results/25_Apr_2018_03_54_PM/json",
+      "startTime": 1524651880196
+    },
+    {
+      "name": "appium_kart.scenarios.suite1.bdd",
+      "dir": "test-results/25_Apr_2018_03_12_PM/json",
+      "startTime": 1524649334734
+    },
+    {
+      "name": "appium_kart.scenarios.suite1.bdd",
+      "dir": "test-results/25_Apr_2018_02_56_PM/json",
+      "startTime": 1524648371740
+    },
+    {
+      "name": "appium_kart.scenarios.suite1.bdd",
+      "dir": "test-results/25_Apr_2018_02_40_PM/json",
+      "startTime": 1524647460962
+    },
+    {
+      "name": "appium_kart.scenarios.suite1.bdd",
+      "dir": "test-results/25_Apr_2018_02_38_PM/json",
+      "startTime": 1524647282703
+    },
+    {
+      "name": "appium_kart.scenarios.suite1.bdd",
+      "dir": "test-results/25_Apr_2018_02_33_PM/json",
+      "startTime": 1524647024529
+    },
+    {
+      "name": "appium_kart.scenarios.suite1.bdd",
+      "dir": "test-results/25_Apr_2018_02_32_PM/json",
+      "startTime": 1524646964399
+    },
+    {
+      "name": "appium_kart.scenarios.suite1.bdd",
+      "dir": "test-results/25_Apr_2018_02_14_PM/json",
+      "startTime": 1524645880889
+    },
+    {
+      "name": "appium_kart.scenarios.suite1.bdd",
+      "dir": "test-results/25_Apr_2018_02_02_PM/json",
+      "startTime": 1524645174920
+    },
+    {
+      "name": "appium_kart.scenarios.suite1.bdd",
+      "dir": "test-results/25_Apr_2018_02_00_PM/json",
+      "startTime": 1524645030303
+    },
+    {
+      "name": "appium_kart.scenarios.suite1.bdd",
+      "dir": "test-results/25_Apr_2018_01_58_PM/json",
+      "startTime": 1524644903783
+    },
+    {
+      "name": "appium_kart.scenarios.suite1.bdd",
+      "dir": "test-results/25_Apr_2018_01_56_PM/json",
+      "startTime": 1524644813439
+    },
+    {
+      "name": "appium_kart.scenarios.suite1.bdd",
+      "dir": "test-results/25_Apr_2018_01_55_PM/json",
+      "startTime": 1524644732096
+    },
+    {
+      "name": "appium_kart.scenarios.suite1.bdd",
+      "dir": "test-results/25_Apr_2018_01_54_PM/json",
+      "startTime": 1524644670026
+    },
+    {
+      "name": "appium_kart.scenarios.suite1.bdd",
+      "dir": "test-results/25_Apr_2018_01_52_PM/json",
+      "startTime": 1524644569380
+    },
+    {
+      "name": "appium_kart.scenarios.suite1.bdd",
+      "dir": "test-results/25_Apr_2018_01_50_PM/json",
+      "startTime": 1524644456862
+    },
+    {
+      "name": "appium_kart.scenarios.suite1.bdd",
+      "dir": "test-results/25_Apr_2018_01_49_PM/json",
+      "startTime": 1524644348305
+    },
+    {
+      "name": "appium_kart.scenarios.suite1.bdd",
+      "dir": "test-results/25_Apr_2018_12_27_PM/json",
+      "startTime": 1524639448562
+    },
+    {
+      "name": "appium_kart.scenarios.suite1.bdd",
+      "dir": "test-results/25_Apr_2018_12_26_PM/json",
+      "startTime": 1524639390043
+    },
+    {
+      "name": "appium_kart.scenarios.suite1.bdd",
+      "dir": "test-results/25_Apr_2018_12_20_PM/json",
+      "startTime": 1524639045604
+    },
+    {
+      "name": "appium_kart.scenarios.suite1.bdd",
+      "dir": "test-results/25_Apr_2018_11_00_AM/json",
+      "startTime": 1524634220469
+    },
+    {
+      "name": "appium_kart.scenarios.suite1.bdd",
+      "dir": "test-results/25_Apr_2018_10_57_AM/json",
+      "startTime": 1524634030998
+    },
+    {
+      "name": "appium_kart.scenarios.suite1.bdd",
+      "dir": "test-results/24_Apr_2018_06_36_PM/json",
+      "startTime": 1524575218327
+    },
+    {
+      "name": "appium_kart.scenarios.suite1.bdd",
+      "dir": "test-results/24_Apr_2018_06_19_PM/json",
+      "startTime": 1524574155671
+    },
+    {
+      "name": "appium_kart.scenarios.suite1.bdd",
+      "dir": "test-results/24_Apr_2018_06_16_PM/json",
+      "startTime": 1524573990598
+    },
+    {
+      "name": "appium_kart.scenarios.suite1.bdd",
+      "dir": "test-results/24_Apr_2018_06_16_PM/json",
+      "startTime": 1524573977307
+    },
+    {
+      "name": "appium_kart.scenarios.suite1.bdd",
+      "dir": "test-results/24_Apr_2018_06_14_PM/json",
+      "startTime": 1524573893345
+    },
+    {
+      "name": "appium_kart.scenarios.suite1.bdd",
+      "dir": "test-results/24_Apr_2018_06_12_PM/json",
+      "startTime": 1524573748675
+    },
+    {
+      "name": "appium_kart.scenarios.suite1.bdd",
+      "dir": "test-results/24_Apr_2018_06_11_PM/json",
+      "startTime": 1524573710017
+    }
+  ]
+}

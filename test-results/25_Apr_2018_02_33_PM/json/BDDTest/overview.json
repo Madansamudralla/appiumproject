@@ -1,0 +1,70 @@
+{
+  "total": 1,
+  "pass": 0,
+  "fail": 1,
+  "skip": 0,
+  "classes": [
+    "com.qmetry.qaf.automation.step.client.Scenario"
+  ],
+  "envInfo": {
+    "browser-desired-capabilities": {
+      "appPackage": "com.cleartrip.android",
+      "appActivity": "com.cleartrip.android.common.activities.CleartripHomeActivity",
+      "browser_name": "",
+      "driverClass": "io.appium.java_client.android.AndroidDriver",
+      "automationName": "Appium",
+      "takesScreenshot": true,
+      "javascriptEnabled": true,
+      "platformName": "Android",
+      "deviceName": "9cb99039",
+      "cssSelectorsEnabled": true
+    },
+    "browser-actual-capabilities": {
+      "appPackage": "com.cleartrip.android",
+      "deviceScreenSize": "720x1280",
+      "networkConnectionEnabled": "true",
+      "warnings": "{}",
+      "databaseEnabled": "false",
+      "deviceName": "9cb99039",
+      "platform": "LINUX",
+      "deviceUDID": "9cb99039",
+      "appActivity": "com.cleartrip.android.common.activities.CleartripHomeActivity",
+      "browser_name": "",
+      "desired": "{appPackage=com.cleartrip.android, appActivity=com.cleartrip.android.common.activities.CleartripHomeActivity, browser_name=, driverClass=io.appium.java_client.android.AndroidDriver, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, platformName=Android, deviceName=9cb99039, cssSelectorsEnabled=true}",
+      "driverClass": "io.appium.java_client.android.AndroidDriver",
+      "platformVersion": "5.1.1",
+      "webStorageEnabled": "false",
+      "locationContextEnabled": "false",
+      "automationName": "Appium",
+      "takesScreenshot": "true",
+      "javascriptEnabled": "true",
+      "deviceModel": "A37f",
+      "platformName": "Android",
+      "deviceManufacturer": "OPPO",
+      "cssSelectorsEnabled": "true"
+    },
+    "isfw-build-info": {
+      "qaf-Type": "core",
+      "qaf-Revision": "12-RC3",
+      "qaf-Version": "2.1",
+      "qaf-Build-Time": "06-Aug-2017 11:49:43"
+    },
+    "run-parameters": {
+      "resources": "resources/Mobile",
+      "scenario.file.loc": "scenarios/suite1.bdd",
+      "baseurl": "http://localhost:4723/wd/hub"
+    },
+    "execution-env-info": {
+      "java.arch": "64",
+      "java.vendor": "Oracle Corporation",
+      "java.version": "1.8.0_161",
+      "os.arch": "amd64",
+      "host": "ICPL12782",
+      "os.name": "Windows 10",
+      "user.name": "Madan.Samudralla",
+      "os.version": "10.0"
+    }
+  },
+  "startTime": 1524647147400,
+  "endTime": 1524647151111
+}

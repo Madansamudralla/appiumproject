@@ -1,0 +1,32 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "skiplogin",
+      "args": [
+        "[]"
+      ],
+      "result": "fail",
+      "subLogs": [],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given User clicks on login close button",
+      "type": "TestStepFail",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Unresolved compilation problem: \n\tThe declared package \"\" does not match the expected package \"com.appium_kart\"\n",
+          "type": "Fail",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    }
+  ],
+  "errorTrace": "java.lang.Error: Unresolved compilation problem: \n\tThe declared package \"\" does not match the expected package \"com.appium_kart\"\n\r\n\tat .Given User clicks on login close button(scenarios/suite1.bdd:6)\r\n\tat com.appium_kart.Launch_page.<init>(Launch_page.java:1)\r\n\tat java.lang.Class.newInstance(Class.java:442)\r\n\tat com.qmetry.qaf.automation.step.JavaStep.getClassInstance(JavaStep.java:311)\r\n\tat com.qmetry.qaf.automation.step.JavaStep.getStepProvider(JavaStep.java:190)\r\n\tat com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:153)\r\n\tat com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)\r\n\tat com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:167)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:219)\r\n"
+}
